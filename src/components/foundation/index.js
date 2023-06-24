@@ -4,35 +4,27 @@ import FoundationTable from "./FoundationTable";
 
 function Foundation() {
   return (
-    <div className="h-[calc(100%_-_60px)] overflow-auto text-center">
-      <div
-        className="bg-yellow-100 h-[390px] flex flex-col items-center justify-center"
-        style={{
-          backgroundImage: `url(/src/assets/images/classroom.jpg)`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center center",
-        }}
-      >
-        <div className="bg-black bg-opacity-50 h-full w-full">
-          <div className="py-14 font-bold text-2xl text-white tracking-wider">
+    <div className="h-[calc(100vh_-_60px)] overflow-auto text-center">
+      <div className="bg-[rgb(253,_224,_71,_0.3)] min-h-full flex flex-col items-center justify-center">
+        <div className="h-full w-full">
+          <div className="py-14 font-bold text-2xl  tracking-wider">
             PATNA SCIENCE ACADEMY PROGRAM DETAILS
           </div>
 
           <div className="flex items-center justify-center">
-            <div className="mx-2 p-4 bg-black text-white rounded-xl hover:">
+            <div className="mx-2 p-4 bg-white text-black rounded-xl">
               <div className="p-2 text-sm">Batch Date</div>
               <div className="font-bold w-[150px] p-3 text-sm">
                 5th April, 2023
               </div>
             </div>
-            <div className="mx-2 p-4 bg-black text-white rounded-xl hover:">
+            <div className="mx-2 p-4 bg-white text-black rounded-xl">
               <div className="p-2 text-sm">Eligibility</div>
               <div className="font-bold w-[150px] p-3 text-sm">
                 Minimum qualification class 10th
               </div>
             </div>
-            <div className="mx-2 p-4 bg-black text-white rounded-xl hover:">
+            <div className="mx-2 p-4 bg-white text-black rounded-xl">
               <div className="p-2 text-sm">Mode</div>
               <div className="font-bold w-[150px] p-3 text-sm">
                 Offline 2023-24
@@ -57,7 +49,7 @@ function Foundation() {
         </div>
       </div>
 
-      <div className="pt-10 pb-8 bg-[rgba(45,0,0)] bg-opacity-90">
+      <div className="pt-10 pb-8 bg-[rgb(253,_224,_71,_0.3)]">
         <FoundationSalient />
       </div>
 
@@ -65,9 +57,9 @@ function Foundation() {
         <FoundationTable />
       </div>
 
-      <div className="p-12 bg-[rgba(45,0,0)] bg-opacity-40">
+      <div className="p-12 bg-[rgb(253,_224,_71,_0.3)]">
         <div className="">
-          <div className="text-2xl text-white font-bold">OUR CENTER</div>
+          <div className="text-2xl  font-bold">OUR CENTER</div>
           <div className="flex items-center justify-center p-4 ">
             <div className="mx-2 rounded-xl overflow-hidden shadow-[0_0_60px_-26px_rgba(255,255,255,1)]">
               <div>

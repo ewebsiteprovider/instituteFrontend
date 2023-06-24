@@ -1,22 +1,23 @@
 import BatchCard from "./BatchCard";
 import Footer from "../footer";
+import LottieAnimation from "../LottieAnimation";
 
 function HomePage() {
   const jeeBatchDetails = [
     {
-      name: "JEE Mega Nurture Batch",
+      name: "Foundation Batch",
       class: "Class 11th Students",
       duration: "Batch Date - 21 Jun 2023",
       target: "Target Year - 2025",
     },
     {
-      name: "JEE Mega Nurture Batch",
+      name: "12th Batch",
       class: "Class 11th Students",
       duration: "Batch Date - 21 Jun 2023",
       target: "Target Year - 2025",
     },
     {
-      name: "JEE Mega Nurture Batch",
+      name: "JEE + NEET Batch",
       class: "Class 11th Students",
       duration: "Batch Date - 21 Jun 2023",
       target: "Target Year - 2025",
@@ -24,13 +25,14 @@ function HomePage() {
   ];
 
   return (
-    <div className="h-[calc(100%_-_60px)] overflow-auto">
-      <div className="bg-[rgba(45,0,0,1)] h-[100%] py-5 ">
-        <div className="flex justify-evenly h-[100%] min-h-[500px] items-center">
-          <div className="text-white">
-            <div className="text-6xl font-bold leading-[70px]">
+    <div className="h-[calc(100%_-_60px)] w-full min-h-full overflow-auto">
+      <div className="bg-[rgb(253,_224,_71,_0.3)] h-[100%] py-5 ">
+        <div className="flex justify-evenly h-[100%] items-center">
+          <div className="">
+            <div className="text-4xl font-bold leading-[70px]">
               <div>
-                <span className="text-yellow-300">Motion</span> Hai To
+                <span className="text-yellow-300">Patna Science Academy</span>{" "}
+                Hai To
               </div>
               <div>
                 <span className="text-yellow-300">Bharosa</span> Hai
@@ -40,10 +42,7 @@ function HomePage() {
               JEE (Main + Advanced) | NEET | NTSE | Boards | Olympiads
             </div>
           </div>
-          <img
-            src="https://motion.ac.in/storage/uploads/banner/1678948512815731.png"
-            alt=""
-          />
+          <LottieAnimation animationUrl="https://assets3.lottiefiles.com/packages/lf20_rbowzham.json" />
         </div>
       </div>
 
@@ -74,7 +73,7 @@ function HomePage() {
           targeting school as well as competitive exams
         </div>
         <div className="flex items-center">
-          <div className="px-5 py-2 border-2 rounded-xl mx-2 bg-red-700 text-white">
+          <div className="px-5 py-2 border-2 rounded-xl mx-2 bg-red-700 ">
             JEE
           </div>
           <div className="px-5 py-2 border-2 rounded-xl mx-2">NEET</div>
@@ -121,31 +120,31 @@ function HomePage() {
           and stay ahead with all-round performance in your chosen stream
         </div>
         <div className="flex items-center justify-center">
-          <div className="px-3 py-2 mx-1 border-2 bg-red-700 text-white rounded-xl">
+          <div className="px-3 py-2 mx-1 border-2 bg-red-700  rounded-xl">
             New Courses & Announcement
           </div>
-          <div className="px-3 py-2 mx-1 border-2 hover:text-white hover:bg-red-700 duration-300 rounded-xl">
+          <div className="px-3 py-2 mx-1 border-2 hover: hover:bg-red-700 duration-300 rounded-xl">
             Previous Year Ques. & Answer
           </div>
         </div>
       </div>
 
       <div className="flex items-center justify-center">
-        <div className="border-2 px-5 py-3 mx-2 rounded-xl hover:bg-red-700 hover:text-white duration-100">
+        <div className="border-2 px-5 py-3 mx-2 rounded-xl hover:bg-red-700 hover: duration-100">
           <div className="font-bold">NEET Prayas Batch</div>
           <div className="py-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
             voluptates?
           </div>
         </div>
-        <div className="border-2 px-5 py-3 mx-2 rounded-xl hover:bg-red-700 hover:text-white duration-100">
+        <div className="border-2 px-5 py-3 mx-2 rounded-xl hover:bg-red-700 hover: duration-100">
           <div className="font-bold">NEET Prayas Batch</div>
           <div className="py-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
             voluptates?
           </div>
         </div>
-        <div className="border-2 px-5 py-3 mx-2 rounded-xl hover:bg-red-700 hover:text-white duration-100">
+        <div className="border-2 px-5 py-3 mx-2 rounded-xl hover:bg-red-700 hover: duration-100">
           <div className="font-bold">NEET Prayas Batch</div>
           <div className="py-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
@@ -154,8 +153,8 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="p-5 my-10 bg-[rgba(45,0,0,1)] flex justify-evenly">
-        <div className="text-white">
+      <div className="p-5 my-10 bg-[rgb(253,_224,_71,_0.3)] flex justify-evenly">
+        <div className="">
           <div className=" font-bold text-3xl leading-[70px]">
             Curious to know what makes us unique?
           </div>

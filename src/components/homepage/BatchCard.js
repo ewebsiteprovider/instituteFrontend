@@ -6,7 +6,7 @@ function BatchCard({ props }) {
       <div className="text-sm">{props.class}</div>
       <div className="text-sm">{props.duration}</div>
       <div className="text-sm">Target Year - {props.target}</div>
-      <div className="px-2 py-2 mt-4 text-white bg-yellow-500 w-[120px] rounded-lg">
+      <div className="px-2 py-2 mt-4  bg-[rgb(253,_224,_71,_0.3)] w-[120px] rounded-lg">
         Explore More
       </div>
     </div>

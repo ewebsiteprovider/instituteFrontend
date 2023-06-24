@@ -1,18 +1,18 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import pattern from "./pattern.jpg";
 
 function Footer() {
   return (
     <div
-      className="text-white leading-10 mt-2"
+      className=" leading-10 mt-2"
       style={{
-        backgroundImage: `url(/src/assets/images/pattern.jpg)`,
+        backgroundImage: `url(${pattern})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
-      }}
-    >
-      <div className="bg-[rgba(45,0,0)] bg-opacity-80 flex justify-center p-14 text-left">
+      }}>
+      <div className="bg-[rgb(253,_224,_71,_0.3)] flex justify-center p-14 text-left">
         <div className="mx-10">
           <div className="font-bold text-xl">About Us</div>
           <div className="cursor-pointer text-sm my-4">Introduction</div>

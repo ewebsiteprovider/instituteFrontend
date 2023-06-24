@@ -45,7 +45,7 @@ function FoundationTable() {
         </div>
       </div>
 
-      <div className="p-2 bg-yellow-400 rounded-lg max-w-max m-auto cursor-pointer">
+      <div className="p-2 bg-[rgb(253,_224,_71,_0.3)] rounded-lg max-w-max m-auto cursor-pointer">
         Fee Payment
       </div>
     </div>

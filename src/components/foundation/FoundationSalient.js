@@ -1,7 +1,7 @@
 function FoundationSalient() {
   return (
     <div className="">
-      <div className="text-2xl text-white font-bold pb-5">Salient Features</div>
+      <div className="text-2xl  font-bold pb-5">Salient Features</div>
       <div className="border-2 p-5 w-[670px] m-auto bg-white rounded-xl shadow-[0_0_60px_-26px_rgba(255,255,255,1)]">
         <ul className="ml-5 list-disc text-left leading-loose">
           <li className="">Impart holistic knowledge</li>
