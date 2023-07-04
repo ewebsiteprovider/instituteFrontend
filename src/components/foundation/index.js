@@ -35,7 +35,7 @@ function Foundation() {
       </div>
 
       <div className="px-20 pt-14 pb-12">
-        <div className="text-xl font-bold text-red-800 pb-5">
+        <div className="text-xl font-bold text-[red]-800 pb-5">
           WHAT CAN BE A BETTER STEP THAN A WELL-PLANNED EARLY START!
         </div>
         <div className="text-md leading-6">

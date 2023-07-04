@@ -31,11 +31,10 @@ function HomePage() {
           <div className="">
             <div className="text-4xl font-bold leading-[70px]">
               <div>
-                <span className="text-yellow-300">Patna Science Academy</span>{" "}
-                Hai To
+                <span className="text-[red]">Patna Science Academy</span> Hai To
               </div>
               <div>
-                <span className="text-yellow-300">Bharosa</span> Hai
+                <span className="text-[red]">Bharosa</span> Hai
               </div>
             </div>
             <div className="text-2xl pt-[80px] font-bold">
@@ -47,7 +46,7 @@ function HomePage() {
       </div>
 
       <div className="flex flex-col items-center py-16">
-        <div className="text-3xl font-bold text-red-700">
+        <div className="text-3xl font-bold text-[red]-700">
           Best Selection Ratio
         </div>
         <div className="text-lg py-5">
@@ -63,22 +62,14 @@ function HomePage() {
       </div>
 
       <div className="flex flex-col items-center">
-        <div className="text-3xl font-bold text-red-700">
-          Learn from Kota's Best & Most Experienced Faculties
+        <div className="text-3xl font-bold text-[red]-700">
+          Learn from Patna's Best & Most Experienced Faculties
         </div>
         <div className="text-lg py-5  w-[1300px] text-center">
           Every student is our top priority. To provide the best education we
-          have various Classroom Courses available in Kota for JEE, NEET &
+          have various Classroom Courses available in Patna for JEE, NEET &
           Foundation. These courses include a thorough learning process
           targeting school as well as competitive exams
-        </div>
-        <div className="flex items-center">
-          <div className="px-5 py-2 border-2 rounded-xl mx-2 bg-red-700 ">
-            JEE
-          </div>
-          <div className="px-5 py-2 border-2 rounded-xl mx-2">NEET</div>
-          <div className="px-5 py-2 border-2 rounded-xl mx-2">Foundation</div>
-          <div className="px-5 py-2 border-2 rounded-xl mx-2">MyBizKid</div>
         </div>
 
         <div className="py-10 grid grid-cols-3 w-[100%] px-[16px] gap-[16px]">
@@ -88,14 +79,14 @@ function HomePage() {
         </div>
       </div>
 
-      <img
+      {/* <img
         src="https://motion.ac.in/storage/uploads/banner/1677222215360073.jpg"
         alt=""
         className="w-full pt-20"
-      />
+      /> */}
 
       <div className="flex flex-col items-center py-16">
-        <div className="text-3xl font-bold text-red-700">
+        <div className="text-3xl font-bold text-[red]-700">
           Performance Booster Courses
         </div>
         <div className="text-lg py-5">
@@ -112,7 +103,7 @@ function HomePage() {
       </div>
 
       <div className="flex flex-col items-center py-16">
-        <div className="text-3xl font-bold text-red-700">
+        <div className="text-3xl font-bold text-[red]-700">
           Latest Announcements
         </div>
         <div className="text-sm py-5">
@@ -189,7 +180,7 @@ function HomePage() {
       </div>
 
       <div className="flex flex-col items-center py-16">
-        <div className="text-3xl font-bold text-red-700">
+        <div className="text-3xl font-bold text-[red]-700">
           Our Latest Sessions Will Motivate You!!
         </div>
         <div className="text-lg py-5">

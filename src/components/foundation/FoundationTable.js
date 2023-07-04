@@ -1,7 +1,7 @@
 function FoundationTable() {
   return (
     <div className="mb-10">
-      <div className="text-3xl font-bold text-red-900">Fee Structure</div>
+      <div className="text-3xl font-bold text-[red]-900">Fee Structure</div>
       <div className="text-md py-2">
         A Yearlong Classroom Courses Fees For Boards/ JEE/ NEET/ POLYTECHNIQUE &
         PARAMEDICAL

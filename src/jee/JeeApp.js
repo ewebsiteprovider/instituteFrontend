@@ -8,7 +8,7 @@ import SettingsApplicationsIcon from "@mui/icons-material/SettingsApplications";
 import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
 import QuizIcon from "@mui/icons-material/Quiz";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
-import LottieAnimation from '../components/LottieAnimation'
+import LottieAnimation from "../components/LottieAnimation";
 
 export default function JeeApp() {
   return (
@@ -18,11 +18,10 @@ export default function JeeApp() {
           <div className="">
             <div className="text-4xl font-bold leading-[70px]">
               <div>
-                <span className="text-yellow-300">Patna Science Academy</span>{" "}
-                Hai To
+                <span className="text-[red]">Patna Science Academy</span> Hai To
               </div>
               <div>
-                <span className="text-yellow-300">Bharosa</span> Hai
+                <span className="text-[red]">Bharosa</span> Hai
               </div>
             </div>
             <div className="text-2xl pt-[80px] font-bold">
