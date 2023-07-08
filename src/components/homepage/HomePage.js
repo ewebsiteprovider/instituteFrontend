@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import BatchCard from "./BatchCard";
 import Footer from "../footer";
 import LottieAnimation from "../LottieAnimation";
@@ -30,7 +31,7 @@ function HomePage() {
   return (
     <div className="h-[calc(100%_-_60px)] w-screen overflow-x-hidden bg-yellow-200 bg-opacity-80">
 
-      <div className="w-screen h-screen lg:h-screen bg-yellow-400 bg-opacity-70" styl={{
+      <div className="w-screen h-screen lg:h-screen bg-yellow-400 bg-opacity-70 bg-gradient-to-b from-yellow-500" styl={{
         backgroundImage: `url('https://static.vecteezy.com/system/resources/thumbnails/001/828/520/small/abstract-yellow-gradient-background-vector.jpg')`,
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
@@ -55,8 +56,17 @@ function HomePage() {
               JEE (Main + Advanced) | NEET | Boards
             </div>
 
+            <div className="space-x-5">
+              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold"><Link to='/Scholarship'>Scholarship test</Link></button>
+              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold"><Link to='/enquiry'>Enquiry Now</Link></button>
+            </div>
+
           </div>
-          <LottieAnimation animationUrl="https://assets3.lottiefiles.com/packages/lf20_rbowzham.json" />
+
+          <LottieAnimation animationUrl="https://assets5.lottiefiles.com/packages/lf20_1a8dx7zj.json" />
+          
+          {/* <LottieAnimation animationUrl="https://assets3.lottiefiles.com/packages/lf20_rbowzham.json" /> */}
+
         </div>
 
       </div>

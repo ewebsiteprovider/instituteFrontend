@@ -33,5 +33,5 @@ export default function LottieAnimation({ animationUrl }) {
     };
   }, [animationUrl]);
 
-  return <div ref={lottieContainer} className="h-[400px] overflow-hidden"></div>;
+  return <div ref={lottieContainer} className="h-[500px] overflow-hidden"></div>;
 }
