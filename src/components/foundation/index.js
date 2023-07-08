@@ -5,8 +5,8 @@ import FoundationTable from "./FoundationTable";
 function Foundation() {
   return (
     <div className="h-[calc(100vh_-_60px)] overflow-auto text-center">
-      <div className="bg-[rgb(253,_224,_71,_0.3)] min-h-full flex flex-col items-center justify-center">
-        <div className="h-full w-full">
+      <div className="bg-green-200 h-[600px] flex flex-col items-center justify-center">
+        <div className="h-[350px] w-full">
           <div className="py-14 font-bold text-2xl  tracking-wider">
             PATNA SCIENCE ACADEMY PROGRAM DETAILS
           </div>
@@ -49,7 +49,7 @@ function Foundation() {
         </div>
       </div>
 
-      <div className="pt-10 pb-8 bg-[rgb(253,_224,_71,_0.3)]">
+      <div className="pt-10 pb-8 bg-green-100">
         <FoundationSalient />
       </div>
 
@@ -57,7 +57,7 @@ function Foundation() {
         <FoundationTable />
       </div>
 
-      <div className="p-12 bg-[rgb(253,_224,_71,_0.3)]">
+      <div className="p-12 bg-green-100">
         <div className="">
           <div className="text-2xl  font-bold">OUR CENTER</div>
           <div className="flex items-center justify-center p-4 ">
@@ -80,6 +80,7 @@ function Foundation() {
           </div>
         </div>
       </div>
+      <div className="h-[50px]"></div>
       <Footer />
     </div>
   );

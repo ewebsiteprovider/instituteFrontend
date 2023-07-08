@@ -1,0 +1,56 @@
+.enquiry-form {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #509e70;
+  padding: 20px;
+  border-radius: 5px;
+  /* background-image: url('https://thumbnails.yayimages.com/1600/0/293/293994.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+textarea {
+  width: 580px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+button[type='submit'] {
+  background-color: #d82f91;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type='submit']:hover {
+  background-color: #57aa79;
+}

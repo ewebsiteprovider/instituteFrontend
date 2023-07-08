@@ -12,7 +12,7 @@ function Footer() {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
       }}>
-      <div className="bg-[rgb(253,_224,_71,_0.7)] flex justify-center p-14 text-left">
+      <div className="bg-black bg-opacity-80 text-black flex justify-center p-14 text-left text-white">
         <div className="mx-10">
           <div className="font-bold text-xl">About Us</div>
           <div className="cursor-pointer text-sm my-4">Introduction</div>

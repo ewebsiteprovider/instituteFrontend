@@ -1,12 +1,14 @@
 function BatchCard({ props }) {
   return (
-    <div className="p-5 border-2 rounded-xl h-[500px]">
-      <div className="w-full h-[290px] bg-red-200 rounded-xl"></div>
+    <div className="p-5 shadow-2xl rounded-xl bg-yellow-300">
+      <div className="w-full md:h-[200px] lg:h-[150px] xl:h-[200px] 2xl:h-[250px] bg-red-200 rounded-xl overflow-hidden">
+        <img src={props.source} alt="" />
+      </div>
       <div className="py-2 text-lg font-bold">{props.name}</div>
-      <div className="text-sm">{props.class}</div>
-      <div className="text-sm">{props.duration}</div>
-      <div className="text-sm">Target Year - {props.target}</div>
-      <div className="px-2 py-2 mt-4  bg-[rgb(253,_224,_71,_0.3)] w-[120px] rounded-lg">
+      <div className="text-md">{props.class}</div>
+      <div className="text-md">{props.duration}</div>
+      <div className="text-md">Target Year - {props.target}</div>
+      <div className="px-2 py-2 mt-4 bg-red-600 hover:bg-red-700 text-white w-[120px] rounded-lg cursor-pointer">
         Explore More
       </div>
     </div>

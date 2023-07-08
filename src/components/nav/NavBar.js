@@ -5,10 +5,12 @@ const NavBar = () => {
     { name: "Home", path: "/" },
     { name: "Foundation", path: "/foundation" },
     { name: "Scholarship", path: "/scholarship" },
-    { name: "Result", path: "/jee" },
+    { name: "Jee", path: "/jee" },
+    { name: "Result", path: "/result" },
+    { name: "Enquiry Now", path: "/enquiry" },
   ];
   return (
-    <nav className="bg-[rgb(253,_224,_71,_0.6)] flex justify-between px-[32px] w-[100%] h-[60px] items-center">
+    <nav className="bg-black text-white flex justify-between px-[32px] w-[100%] h-[60px] items-center">
       <img src={logo} alt="" className="h-[60%] bg-[#fff] rounded-full"/>
       <ul className=" flex items-center">
         {navItems.map((item, index) => (
