@@ -71,7 +71,7 @@ function HomePage() {
 
       </div>
 
-      <div className="flex flex-col items-center py-16 px-5">
+      {/* <div className="flex flex-col items-center py-16 px-5">
         <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
           Best Selection Ratio
         </div>
@@ -80,12 +80,7 @@ function HomePage() {
           students, so far, we have acquired remarkable selection ratios in
           competitive exams.
         </div>
-        {/* <img
-          src="https://Patna Science Academy.ac.in/storage/uploads/banner/1669785977699141.jpg"
-          alt=""
-          className="w-[800px]"
-        /> */}
-      </div>
+      </div> */}
 
       <div className="px-5 flex flex-col items-center text-center">
         <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">

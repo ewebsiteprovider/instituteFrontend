@@ -16,7 +16,7 @@ export default function Scholarship() {
       <BannerForm />
 
       <div className="">
-        <h1 className="pt-16 pb-7 text-[40px] font-bold">PSA Open Scholarship Test</h1>
+        <h1 className="pt-16 pb-7 text-[30px] md:text-[40px] xl:text-[40px] font-bold">PSA Open Scholarship Test</h1>
 
         <div className="flex flex-wrap justify-center">
 
@@ -50,11 +50,11 @@ export default function Scholarship() {
 
         </div>
 
-        <div className="px-[180px]">
+        <div className="px-5 md:px-20">
 
           <h1 className="text-xl font-bold my-5">Why should you choose MOST?</h1>
 
-          <div className="grid grid-cols-3 gap-[32px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]">
 
             <div className="crd">
               <img src={star} alt="" />
