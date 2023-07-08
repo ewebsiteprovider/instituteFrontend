@@ -5,7 +5,12 @@ import FoundationTable from "./FoundationTable";
 function Foundation() {
   return (
     <div className="h-[calc(100vh_-_60px)] overflow-auto text-center">
-      <div className="bg-green-200 h-[600px] flex flex-col items-center justify-center">
+      <div className="bg-yellow-200 h-[600px] flex flex-col items-center justify-center" style={{
+        backgroundImage: `url('https://learn.canva.com/wp-content/uploads/2016/04/1.-mage-by-Rodion-Kutsaev-via-Unsplash.jpg')`,
+        backgroundPosition: 'center bottom',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}>
         <div className="h-[350px] w-full">
           <div className="py-14 font-bold text-2xl  tracking-wider">
             PATNA SCIENCE ACADEMY PROGRAM DETAILS
@@ -49,7 +54,7 @@ function Foundation() {
         </div>
       </div>
 
-      <div className="pt-10 pb-8 bg-green-100">
+      <div className="">
         <FoundationSalient />
       </div>
 
@@ -57,11 +62,11 @@ function Foundation() {
         <FoundationTable />
       </div>
 
-      <div className="p-12 bg-green-100">
+      <div className="p-12 bg-yellow-200 bg-opacity-80">
         <div className="">
           <div className="text-2xl  font-bold">OUR CENTER</div>
-          <div className="flex items-center justify-center p-4 ">
-            <div className="mx-2 rounded-xl overflow-hidden shadow-[0_0_60px_-26px_rgba(255,255,255,1)]">
+          <div className="flex items-center justify-center p-4">
+            <div className="mx-2 rounded-xl overflow-hidden shadow-xl">
               <div>
                 <img
                   src="https://t4.ftcdn.net/jpg/02/81/89/73/360_F_281897358_3rj9ZBSZHo5s0L1ug7uuIHadSxh9Cc75.jpg"

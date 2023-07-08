@@ -1,5 +1,6 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import MailIcon from '@mui/icons-material/Mail';
 import pattern from "./pattern.jpg";
 
 function Footer() {
@@ -16,7 +17,7 @@ function Footer() {
         <div className="mx-10">
           <div className="font-bold text-xl">About Us</div>
           <div className="cursor-pointer text-sm my-4">Introduction</div>
-          <div className="cursor-pointer text-sm my-4">About SK Sir</div>
+          <div className="cursor-pointer text-sm my-4">About Faculty</div>
         </div>
 
         <div className="mx-10">
@@ -55,6 +56,14 @@ function Footer() {
           <div className="text-sm my-4">
             <LocalPhoneIcon className="mr-1" />
             (+91) 7370884033 / (+91) 7370884066
+          </div>
+          <div>
+            <MailIcon className="mr-1" />
+            official @patnascienceacademy.com 
+          </div>
+          <div>
+            {/* <MailIcon className="mr-1" /> */}
+            <div className="ml-7">xyz@patnascienceacademy.com</div>
           </div>
         </div>
       </div>

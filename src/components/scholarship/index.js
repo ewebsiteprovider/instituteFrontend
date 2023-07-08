@@ -11,11 +11,11 @@ import BannerForm from "./Banner";
 
 export default function Scholarship() {
   return (
-    <div className="h-[calc(100%_-_60px)] text-center overflow-x-hidden">
+    <div className="h-[calc(100%_-_60px)] text-center bg-yellow-200 bg-opacity-80 overflow-x-hidden">
 
       <BannerForm />
 
-      <div className="bg-green-100 bg-opacity-40">
+      <div className="">
         <h1 className="pt-16 pb-7 text-[40px] font-bold">PSA Open Scholarship Test</h1>
 
         <div className="flex flex-wrap justify-center">

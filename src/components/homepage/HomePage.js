@@ -31,7 +31,7 @@ function HomePage() {
   return (
     <div className="h-[calc(100%_-_60px)] w-screen overflow-x-hidden bg-yellow-200 bg-opacity-80">
 
-      <div className="w-screen h-screen lg:h-screen bg-yellow-400 bg-opacity-70 bg-gradient-to-b from-yellow-500" styl={{
+      <div className="w-screen h-screen lg:h-screen bg-gradient-to-b from-yellow-500" styl={{
         backgroundImage: `url('https://static.vecteezy.com/system/resources/thumbnails/001/828/520/small/abstract-yellow-gradient-background-vector.jpg')`,
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',

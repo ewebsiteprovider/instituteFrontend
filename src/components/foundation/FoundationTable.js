@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function FoundationTable() {
   return (
     <div className="mb-10">
@@ -45,9 +47,9 @@ function FoundationTable() {
         </div>
       </div>
 
-      <div className="p-2 bg-[rgb(253,_224,_71,_0.3)] rounded-lg max-w-max m-auto cursor-pointer">
-        Fee Payment
-      </div>
+      <button className="p-2 bg-[red] bg-opacity-80 hover:bg-opacity-100 text-white rounded-lg max-w-max m-auto cursor-pointer">
+        <Link>Fee Payment</Link>
+      </button>
     </div>
   );
 }
