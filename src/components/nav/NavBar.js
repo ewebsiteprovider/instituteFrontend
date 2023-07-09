@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
-import logo from './nav.png';
+// import logo from './nav.png';
+import logo from './MicrosoftTeams-image.png';
 
 const NavBar = () => {
 
@@ -22,9 +23,9 @@ const NavBar = () => {
 
   return (
 
-    <nav className="bg-black text-white flex justify-between px-[32px] w-[100%] h-[60px] items-center">
+    <nav className="bg-black text-white flex justify-between px-[32px] w-[100%] h-[60px] items-center overflow-hidden">
 
-      <img src={logo} alt="" className="h-[60%] bg-[#fff] rounded-full" />
+      <img src={logo} alt="" className="h-[70px] md:h-[130px] rounded-full" />
 
       <div>
         <div className="relative sm:hidden">
