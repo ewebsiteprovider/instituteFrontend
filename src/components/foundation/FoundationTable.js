@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 
 function FoundationTable() {
   return (
-    <div className="mb-10">
-      <div className="text-3xl font-bold text-[red]-900">Fee Structure</div>
-      <div className="text-md py-2">
+    <div className="px-5 mb-10">
+      <div className="text-2xl md:text-[30px] font-bold text-[red]-900">Fee Structure</div>
+      <div className="text-sm sm:text-md py-2">
         A Yearlong Classroom Courses Fees For Boards/ JEE/ NEET/ POLYTECHNIQUE &
         PARAMEDICAL
       </div>
@@ -39,8 +39,8 @@ function FoundationTable() {
                 <td className="border-2">45,000</td>
               </tr>
               <tr>
-                <td className="px-20 border-r-2">Polytechnique</td>
-                <td className="px-20 border-l-2">25,000</td>
+                <td className="px-10 sm:px-20 border-r-2">Polytechnique</td>
+                <td className="px-10 sm:px-20 border-l-2">25,000</td>
               </tr>
             </tbody>
           </table>

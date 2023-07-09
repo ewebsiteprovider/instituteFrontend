@@ -55,11 +55,11 @@ const BannerForm = () => {
 
           <h4 className="py-2 text-md md:text-2xl text-black">Appear in Instant Online</h4>
 
-          <h1 className="text-[red] text-[20px] md:text-[45px]">
+          <h1 className="my-3 text-[red] text-[20px] md:text-[45px]">
             <strong> PATNA SCIENCE ACADEMY SCHOLARSHIP PROGRAM (PSASP)</strong>
           </h1>
 
-          <h3 className="text-lg my-2 text-black">
+          <h3 className="text-md md:text-xl my-2 text-black">
             For Class 6th to 12th &amp; 12th Pass Out Students
           </h3>
 
@@ -74,9 +74,9 @@ const BannerForm = () => {
 
         </div>
 
-        <div className="my-10 w-[350px sm:w-[400px md:w-[500px py-10 rounded-xl bg-neutral-700 bg-opacity-90 shadow-2xl">
+        <div className="my-10 sm:w-[400px md:w-[500px py-10 rounded-xl bg-neutral-700 bg-opacity-90 shadow-2xl">
 
-          <form className="px-10 flex flex-col items-center justify-center" onSubmit={handleSubmit}>
+          <form className="px-5 lg:px-10 flex flex-col items-center justify-center" onSubmit={handleSubmit}>
             <h3 className="text-yellow-400 pb-10 text-3xl underline">Scholarship Form</h3>
 
             <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-10 xl:space-x-20 mb-10">

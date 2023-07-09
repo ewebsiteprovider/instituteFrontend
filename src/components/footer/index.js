@@ -13,14 +13,14 @@ function Footer() {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
       }}>
-      <div className="bg-black bg-opacity-80 text-black flex justify-center p-14 text-left text-white">
-        <div className="mx-10">
+      <div className="bg-black bg-opacity-80 text-black px-5 xl:px-40 py-10 text-left text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        <div className="my-5">
           <div className="font-bold text-xl">About Us</div>
           <div className="cursor-pointer text-sm my-4">Introduction</div>
           <div className="cursor-pointer text-sm my-4">About Faculty</div>
         </div>
 
-        <div className="mx-10">
+        <div className="my-5">
           <div className="font-bold text-xl">About Exam</div>
           <div className="cursor-pointer text-sm my-4">
             <a href="https://jeemain.nta.nic.in/about-jeemain-2023/">
@@ -37,33 +37,32 @@ function Footer() {
           <div className="cursor-pointer text-sm my-4">Admission Open</div>
         </div>
 
-        <div className="mx-10">
+        <div className="my-5">
           <div className="font-bold text-xl">Contact Us</div>
           <div className="cursor-pointer text-sm my-4">Contact Us</div>
           <div className="cursor-pointer text-sm my-4">Feedback</div>
         </div>
 
-        <div className="mx-10">
+        <div className="my-5">
           <div className="font-bold text-xl">Useful Links</div>
         </div>
 
-        <div className="mx-10">
+        <div className="my-5 mb-10 md:w-[300px]">
           <div className="font-bold text-xl">Corporate Office</div>
-          <div className="text-sm my-4">
+          <div className="text-sm my-4 flex space-x-2">
             <LocationOnIcon className="mr-1" />
-            Near Girja Apartment, Bazaar Samiti, Saketpuri, Patna-16
+            <div>Near Girja Apartment, Bazaar Samiti, Saketpuri, Patna-16</div>
           </div>
-          <div className="text-sm my-4">
+          <div className="text-sm my-4 flex space-x-2">
             <LocalPhoneIcon className="mr-1" />
-            (+91) 7370884033 / (+91) 7370884066
+            <div>(+91) 7370884033 / (+91) 7370884066</div>
           </div>
-          <div>
+          <div className="text-sm my-4 flex items-center space-x-2">
             <MailIcon className="mr-1" />
-            official @patnascienceacademy.com 
-          </div>
-          <div>
-            {/* <MailIcon className="mr-1" /> */}
-            <div className="ml-7">xyz@patnascienceacademy.com</div>
+            <div className="space-y-2">
+              <div>official @patnascienceacademy.com</div>
+              <div>xyz@patnascienceacademy.com</div>
+            </div>
           </div>
         </div>
       </div>

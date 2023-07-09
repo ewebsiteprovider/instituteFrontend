@@ -31,14 +31,14 @@ function HomePage() {
   return (
     <div className="h-[calc(100%_-_60px)] w-screen overflow-x-hidden bg-yellow-200 bg-opacity-80">
 
-      <div className="w-screen h-screen lg:h-screen bg-gradient-to-b from-yellow-500" styl={{
+      <div className="w-screen md:min-h-max lg:h-screen bg-gradient-to-b from-yellow-500" styl={{
         backgroundImage: `url('https://static.vecteezy.com/system/resources/thumbnails/001/828/520/small/abstract-yellow-gradient-background-vector.jpg')`,
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}>
 
-        <div className="w-screen min-h-max lg:h-screen flex flex-col xl:flex-row items-center justify-evenly md:space-x-5 p-4 bg-yellow-00 bg-opacity-90">
+        <div className="w-screen min-h-max lg:h-screen flex flex-col xl:flex-row items-center justify-evenly space-y-6 md:space-y-36 xl:space-y-0 md:space-x-5 p-4 bg-yellow-00 bg-opacity-90">
           <div className="mt-20 xl:mt-0">
 
             <div className="text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-black">
@@ -63,7 +63,9 @@ function HomePage() {
 
           </div>
 
-          <LottieAnimation animationUrl="https://assets5.lottiefiles.com/packages/lf20_1a8dx7zj.json" />
+          <div className='hidden xl:inline'>
+            <LottieAnimation animationUrl="https://assets5.lottiefiles.com/packages/lf20_1a8dx7zj.json" />
+          </div>
           
           {/* <LottieAnimation animationUrl="https://assets3.lottiefiles.com/packages/lf20_rbowzham.json" /> */}
 
@@ -71,18 +73,7 @@ function HomePage() {
 
       </div>
 
-      {/* <div className="flex flex-col items-center py-16 px-5">
-        <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
-          Best Selection Ratio
-        </div>
-        <div className="text-[15px] sm:text-lg pt-5 text-center">
-          Patna Science Academy results reflect the passion, hard work and efforts of our
-          students, so far, we have acquired remarkable selection ratios in
-          competitive exams.
-        </div>
-      </div> */}
-
-      <div className="px-5 flex flex-col items-center text-center">
+      <div className="mt-20 md:mt-36 px-5 flex flex-col items-center text-center">
         <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
           Learn from Patna's Best & Most Experienced Faculties
         </div>

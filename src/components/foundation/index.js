@@ -11,12 +11,12 @@ function Foundation() {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}>
-        <div className="h-[350px] w-full">
-          <div className="py-14 font-bold text-2xl  tracking-wider">
+        <div className="w-full">
+          <div className="py-5 md:py-14 font-bold text-2xl tracking-wider">
             PATNA SCIENCE ACADEMY PROGRAM DETAILS
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="py-5 flex flex-col md:flex-row space-y-5 md:space-y-0 items-center justify-center">
             <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
               <div className="p-2 text-sm">Batch Date</div>
               <div className="font-bold w-[150px] p-3 px-1 text-sm">
@@ -43,7 +43,7 @@ function Foundation() {
         <div className="text-xl font-bold text-[red]-800 pb-5">
           WHAT CAN BE A BETTER STEP THAN A WELL-PLANNED EARLY START!
         </div>
-        <div className="text-sm md:text-md leading-6">
+        <div className="text-sm md:text-md leading-6 text-start md:text-center">
           Patna Science Academy prepares students for various competitive
           examinations for classes 11th & 12th. We focus on developing
           intelligence quotient (IQ), mathematical aptitude, scientific

@@ -16,14 +16,12 @@ export default function Scholarship() {
       <BannerForm />
 
       <div className="">
-        <h1 className="pt-16 pb-7 text-[30px] md:text-[40px] xl:text-[40px] font-bold">PSA Open Scholarship Test</h1>
+        <h1 className="pt-16 pb-7 text-[20px] md:text-[40px] xl:text-[40px] font-bold">PSA Open Scholarship Test</h1>
 
-        <div className="flex flex-wrap justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 space-y-7 sm:space-y-0">
 
-          <div className="p-[16px] m-[16px] w-[40%] rounded-[12px] border h-[250px] bg-white drop-shadow-lg">
-
+          <div className="p-5 mb-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
             <img src={img1} alt="" className="w-[100%]" />
-
             <p className="leading-[24px] mt-[24px]">
               Take the test at a date and time of your choice.
               <br />
@@ -33,14 +31,14 @@ export default function Scholarship() {
             </p>
           </div>
 
-          <div className="p-[16px] m-[16px] w-[40%] rounded-[12px] border h-[250px] bg-white drop-shadow-lg">
+          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
             <img src={img2} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               <b> JEE, NEET, Olympiad & Board</b> classroom <br /> Courses
             </p>
           </div>
 
-          <div className="p-[16px] m-[16px] w-[40%] rounded-[12px] border h-[250px] bg-white drop-shadow-lg">
+          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
             <img src={img3} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               className <b>6th to 12th & 12th Pass</b> out Students
@@ -50,13 +48,13 @@ export default function Scholarship() {
 
         </div>
 
-        <div className="px-5 md:px-20">
+        <div className="px-5 md:px-20 my-20">
 
-          <h1 className="text-xl font-bold my-5">Why should you choose MOST?</h1>
+          <h1 className="text-[20px] md:text-[40px] xl:text-[40px] font-bold my-5">Why should you choose MOST?</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]">
 
-            <div className="crd">
+            <div className="text-start">
               <img src={star} alt="" />
               <img src={target} alt="" />
               <p>
@@ -68,7 +66,7 @@ export default function Scholarship() {
               </p>
             </div>
 
-            <div className="crd">
+            <div className="text-start">
               <img src={star} alt="" />
               <img src={finance} alt="" />
               <p>
@@ -79,7 +77,7 @@ export default function Scholarship() {
               </p>
             </div>
 
-            <div className="crd">
+            <div className="text-start">
               <img src={star} alt="" />
               <img src={customer} alt="" />
               <p>
