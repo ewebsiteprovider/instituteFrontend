@@ -10,6 +10,7 @@ const NavBar = () => {
 
   const handleOnClick = () => {
     (status ? setStatus(false) : setStatus(true));
+    console.log(status);
   }
 
   const navItems = [
@@ -23,9 +24,9 @@ const NavBar = () => {
 
   return (
 
-    <nav className="bg-black text-white flex justify-between px-[32px] w-[100%] h-[60px] items-center overflow-hidden">
+    <nav className="bg-black text-white flex justify-between px-[32px] w-[100%] h-[60px] items-center sm:overflow-hidden">
 
-      <img src={logo} alt="" className="h-[70px] md:h-[130px] rounded-full" />
+      <img src={logo} alt="" className="h-[60px] md:h-[130px] rounded-full" />
 
       <div>
         <div className="relative sm:hidden">
