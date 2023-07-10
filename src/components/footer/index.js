@@ -66,7 +66,7 @@ function Footer() {
           <div className="text-sm my-4 flex items-center space-x-2">
             <MailIcon className="mr-1" />
             <div className="space-y-2">
-              <div>official @patnascienceacademy.com</div>
+              <div>official@patnascienceacademy.com</div>
               <div>xyz@patnascienceacademy.com</div>
             </div>
           </div>
