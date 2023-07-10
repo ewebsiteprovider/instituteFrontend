@@ -20,7 +20,7 @@ export default function Scholarship() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 space-y-7 sm:space-y-0">
 
-          <div className="p-5 mb-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
+          <div className="p-5 mb-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
             <img src={img1} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               Take the test at a date and time of your choice.
@@ -31,14 +31,14 @@ export default function Scholarship() {
             </p>
           </div>
 
-          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
+          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
             <img src={img2} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               <b> JEE, NEET, Olympiad & Board</b> classroom <br /> Courses
             </p>
           </div>
 
-          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
+          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
             <img src={img3} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               className <b>6th to 12th & 12th Pass</b> out Students
@@ -50,7 +50,7 @@ export default function Scholarship() {
 
         <div className="px-5 md:px-20 my-20">
 
-          <h1 className="text-[20px] md:text-[40px] xl:text-[40px] font-bold my-5">Why should you choose MOST?</h1>
+          <h1 className="text-[20px] md:text-[40px] xl:text-[40px] font-bold my-5">Why should you choose PSASP?</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[32px]">
 
@@ -58,7 +58,7 @@ export default function Scholarship() {
               <img src={star} alt="" />
               <img src={target} alt="" />
               <p>
-                The objective of MOST is to encourage students in developing their
+                The objective of PSASP is to encourage students in developing their
                 study skills and embracing individual strengths. We conduct this
                 test for both online and offline batches in order to provide equal
                 possibilities. As a result, every student benefits from this test
@@ -70,7 +70,7 @@ export default function Scholarship() {
               <img src={star} alt="" />
               <img src={finance} alt="" />
               <p>
-                MOST is a program to provide financial aid to the students
+                PSASP is a program to provide financial aid to the students
                 aspiring for JEE, NEET or Foundation Exam through Motion
                 Education. It is a great opportunity for students who have been
                 exempted from getting privileges based on any other criteria.
@@ -81,7 +81,7 @@ export default function Scholarship() {
               <img src={star} alt="" />
               <img src={customer} alt="" />
               <p>
-                MOST enables students to assess their performance and gain
+                PSASP enables students to assess their performance and gain
                 first-hand experience. To do this, we create a paper format that
                 mirrors the final test as well as a national ranking. Through this
                 procedure, students gain more self-assurance, analytical

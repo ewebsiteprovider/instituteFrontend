@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import bannerImage from './images/bannerImage2.jpeg';
 
 const BannerForm = () => {
+
   const [formData, setFormData] = useState({
-    name: "",
     course: "",
-    class: "",
-    mobile: "",
+    name: "",
     email: "",
+    mobile: "",
+    dob: "",
+    gender: "",
+    parents: "",
+    address:"",
   });
 
   const handleInputChange = (event) => {
@@ -17,13 +21,16 @@ const BannerForm = () => {
       [name]: value,
     }));
   };
+
   //otp ka funtion
   const handleVerifyOTP = () => {
     console.log("OTP Verified");
   };
+
   //function check krne ke liye sb bhara hai ya nhi
   const handleSubmit = (event) => {
     event.preventDefault();
+
     let hasEmptyField = false;
     for (const field in formData) {
       if (formData[field] === "") {
@@ -36,11 +43,23 @@ const BannerForm = () => {
       alert("Please fill in all fields.");
       return;
     } else {
-      alert("form");
+      alert("form submitted");
     }
-    console.log("Form submitted:", formData);
+
+    setFormData({
+      course: "",
+      name: "",
+      email: "",
+      mobile: "",
+      dob: "",
+      gender: "",
+      parents: "",
+      address: "",
+    })
+
   };
-  //contengt on left
+
+
   return (
 
     <div className="w-screen" style={{
@@ -82,23 +101,22 @@ const BannerForm = () => {
             <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-10 xl:space-x-20 mb-10">
               <div className="space-y-5 md:w-[350px] xl:w-[450px]">
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="course" className="text-white">Course</label>
+                  <label htmlFor="course" className="text-white">Course <span className="text-red-500">*</span></label>
                   <select className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                     id="course"
                     name="course"
                     value={formData.course}
                     onChange={handleInputChange}>
                     <option value="">Select a course</option>
-                    <option value="course3"></option>
-                    <option value="course3">11th</option>
-                    <option value="course3">12th</option>
-                    <option value="course1">JEE</option>
-                    <option value="course2">NEET</option>
+                    <option value="11">11th</option>
+                    <option value="12">12th</option>
+                    <option value="JEE">JEE</option>
+                    <option value="NEET">NEET</option>
                   </select>
                 </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="name" className="text-white">Your Name</label>
+                  <label htmlFor="name" className="text-white">Your Name <span className="text-red-500">*</span></label>
                   <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                     type="text"
                     id="name"
@@ -110,7 +128,7 @@ const BannerForm = () => {
                 </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="email" className="text-white">Email Address</label>
+                  <label htmlFor="email" className="text-white">Email Address <span className="text-red-500">*</span></label>
                   <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                     type="email"
                     id="email"
@@ -123,7 +141,7 @@ const BannerForm = () => {
 
                 <div>
                   <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                    <label htmlFor="mobile" className="text-white">Mobile Number</label>
+                    <label htmlFor="mobile" className="text-white">Mobile Number <span className="text-red-500">*</span></label>
                     <div className="flex w-[450px]">
                       <input className="px-2 sm:px-5 py-1 sm:py-2 w-[200px] sm:w-[250px] xl:w-[300px] text-black text-md rounded-l sm:rounded-tl-xl sm:rounded-bl-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                         type="tel"
@@ -146,50 +164,50 @@ const BannerForm = () => {
 
               <div className="space-y-5 md:w-[350px] xl:w-[450px]">
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="name" className="text-white">Date of birth</label>
+                  <label htmlFor="name" className="text-white">Date of birth <span className="text-red-500">*</span></label>
                   <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                     type="date"
-                    id="name"
-                    name="name"
-                    value={formData.name}
+                    id="dob"
+                    name="dob"
+                    value={formData.dob}
                     onChange={handleInputChange}
-                    placeholder="Enter your name"
+                    placeholder="Enter your date of birth"
                   />
                 </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="class" className="text-white">Gender</label>
+                  <label htmlFor="class" className="text-white">Gender <span className="text-red-500">*</span></label>
                   <select className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
-                    id="class"
-                    name="class"
-                    value={formData.class}
+                    id="gender"
+                    name="gender"
+                    value={formData.gender}
                     onChange={handleInputChange}>
                     <option value="">Select a gender</option>
-                    <option value="class1">Male</option>
-                    <option value="class2">Female</option>
-                    <option value="class3">Other</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
                   </select>
                 </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="name" className="text-white">Father's Name / Mother's Name</label>
+                  <label htmlFor="name" className="text-white">Father's Name / Mother's Name <span className="text-red-500">*</span></label>
                   <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                     type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
+                    id="parents"
+                    name="parents"
+                    value={formData.parents}
                     onChange={handleInputChange}
                     placeholder="Enter your father's name"
                   />
                 </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
-                  <label htmlFor="email" className="text-white">Permanent Address</label>
+                  <label htmlFor="email" className="text-white">Permanent Address <span className="text-red-500">*</span></label>
                   <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
                     type="text"
-                    id="email"
-                    name="email"
-                    value={formData.email}
+                    id="address"
+                    name="address"
+                    value={formData.address}
                     onChange={handleInputChange}
                     placeholder="Enter your email"
                   />

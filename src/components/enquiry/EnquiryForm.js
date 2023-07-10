@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-// import './EnquiryForm.css';
 
 const EnquiryForm = () => {
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [mobile, setMobile] = useState('');
@@ -35,6 +35,13 @@ const EnquiryForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        if (name === "") return alert("Enter your name");
+        if (email === "") return alert("Enter your email");
+        if (mobile === "") return alert("Enter your mobile");
+        if (city === "") return alert("Enter your city");
+        if (option === "") return alert("Enter your option");
+        if (query === "") return alert("Enter your query");
 
         console.log('Form submitted:', { name, email, mobile, city, option, query });
 
