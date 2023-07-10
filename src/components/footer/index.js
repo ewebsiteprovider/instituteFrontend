@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import MailIcon from '@mui/icons-material/Mail';
@@ -28,10 +29,10 @@ function Footer() {
             </a>
           </div>
           <div className="cursor-pointer text-sm my-4">
-            <a href="https://jeeadv.ac.in/">JEE Advance</a>
+            <a href="https://jeeadv.ac.in/" target="_blank">JEE Advance</a>
           </div>
           <div className="cursor-pointer text-sm my-4">
-            <a href="https://neet.nta.nic.in/information-bulletin/">NEET</a>
+            <a href="https://neet.nta.nic.in/information-bulletin/" target="_blank">NEET</a>
           </div>
           <div className="cursor-pointer text-sm my-4">Registration form</div>
           <div className="cursor-pointer text-sm my-4">Admission Open</div>
@@ -45,6 +46,11 @@ function Footer() {
 
         <div className="my-5">
           <div className="font-bold text-xl">Useful Links</div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/">Home</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/foundation">Foundation</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/scholarship">Scholarship</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/result">Result</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/enquiry">Enquiry Now</Link></div>
         </div>
 
         <div className="my-5 mb-10 md:w-[300px]">
