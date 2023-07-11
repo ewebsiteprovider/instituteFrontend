@@ -140,7 +140,7 @@ export default function NeetApp() {
             <button className="w-auto h-auto py-[10px] px-[20px] text-[15px] bg-yellow-300 text-red-600 font-bold rounded-xl cursor-pointer hover:bg-yellow-400 duration-200 ">Pay Now</button>
           </div>
 
-          <div className="flex flex-col items-center justify-evenly rounded-xl py-[10px] px-[10px] w-[350px] sm:w-[400px] md:w-[500px] h-[300px] bg-white shadow-xl mx-3 border-2">
+          <div className="flex flex-col items-center justify-evenly rounded-xl py-[10px] px-[10px] w-[350px] sm:w-[400px] md:w-[500px] h-[300px] bg-white shadow-xl mx-3">
             <span className="bg-red-600 text-white text-[20px] items-start rounded-md p-[10px] left-0">classroom Program</span>
             <p className="text-black text-[20px] font-[600] px-[20px] leading-7 text-center">
               <span className="uppercase ">classROOM</span> Mode is available for student who wants to
