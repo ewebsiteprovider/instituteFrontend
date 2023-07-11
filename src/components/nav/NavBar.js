@@ -69,7 +69,7 @@ const NavBar = () => {
           }
         </div>
 
-        <ul className=" flex items-center hidden lg:inline">
+        <ul className=" flex items-center lg:space-x-3 xl:space-x-5 hidden lg:inline">
           {navItems.map((item, index) => (
             <Link className="p-[16px]" to={item.path} key={index}>
               {item.name}
