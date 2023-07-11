@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from './navLogo.jpeg';
-// import logo from './MicrosoftTeams-image.png';
 
 const NavBar = () => {
 
