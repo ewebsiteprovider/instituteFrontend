@@ -24,7 +24,7 @@ function Footer() {
         <div className="my-5">
           <div className="font-bold text-xl">About Exam</div>
           <div className="cursor-pointer text-sm my-4">
-            <a href="https://jeemain.nta.nic.in/about-jeemain-2023/">
+            <a href="https://jeemain.nta.nic.in/about-jeemain-2023/" target="_blank">
               JEE Mains
             </a>
           </div>
