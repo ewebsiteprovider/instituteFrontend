@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/Scholarship" element={<Scholarship />} />
           <Route exact path="/jee" element={<JeeApp />} />
           <Route exact path="/neet" element={<NeetApp />} />
-          {/* <Route exact path="/result" element={<Result />} /> */}
+          <Route exact path="/result" element={<Result />} />
           <Route exact path="/enquiry" element={<Enquiry />} />
         </Routes>
       </BrowserRouter>
