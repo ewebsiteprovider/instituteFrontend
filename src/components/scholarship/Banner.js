@@ -3,12 +3,14 @@ import React, { useState } from "react";
 const BannerForm = () => {
 
   const [formData, setFormData] = useState({
-    course: "",
+    course: "11",
     name: "",
     email: "",
     mobile: "",
     dob: "",
-    gender: "",
+    board: "BIHAR",
+    gender: "male",
+    aadhar: "",
     parents: "",
     address:"",
   });
@@ -46,12 +48,14 @@ const BannerForm = () => {
     }
 
     setFormData({
-      course: "",
+      course: "11",
       name: "",
       email: "",
       mobile: "",
       dob: "",
-      gender: "",
+      board: "BIHAR",
+      gender: "male",
+      aadhar: "",
       parents: "",
       address: "",
     })
@@ -106,7 +110,6 @@ const BannerForm = () => {
                     name="course"
                     value={formData.course}
                     onChange={handleInputChange}>
-                    <option value="">Select a course</option>
                     <option value="11">11th</option>
                     <option value="12">12th</option>
                     <option value="JEE">JEE</option>
@@ -159,9 +162,7 @@ const BannerForm = () => {
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="space-y-5 md:w-[350px] xl:w-[450px]">
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
                   <label htmlFor="name" className="text-white">Date of birth <span className="text-red-500">*</span></label>
                   <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
@@ -173,6 +174,23 @@ const BannerForm = () => {
                     placeholder="Enter your date of birth"
                   />
                 </div>
+              </div>
+
+              <div className="space-y-5 md:w-[350px] xl:w-[450px]">
+                <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
+                  <label htmlFor="course" className="text-white">Board <span className="text-red-500">*</span></label>
+                  <select className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
+                    id="board"
+                    name="board"
+                    value={formData.course}
+                    onChange={handleInputChange}>
+                    <option value="BIHAR">BIHAR Board</option>
+                    <option value="ICSE">ICSE</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="UP">UP Board</option>
+                    <option value="OTHER">OTHER Board</option>
+                  </select>
+                </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
                   <label htmlFor="class" className="text-white">Gender <span className="text-red-500">*</span></label>
@@ -181,11 +199,22 @@ const BannerForm = () => {
                     name="gender"
                     value={formData.gender}
                     onChange={handleInputChange}>
-                    <option value="">Select a gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     <option value="other">Other</option>
                   </select>
+                </div>
+
+                <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">
+                  <label htmlFor="name" className="text-white">Aadhar No. <span className="text-red-500">*</span></label>
+                  <input className="px-2 sm:px-5 py-1 sm:py-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px] text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
+                    type="text"
+                    id="aadhar"
+                    name="aadhar"
+                    value={formData.aadhar}
+                    onChange={handleInputChange}
+                    placeholder="Enter your Aadhar No."
+                  />
                 </div>
 
                 <div className="flex flex-col items-start space-y-2 w-[300px] sm:w-[350px] md:w-[350px] xl:w-[450px]">

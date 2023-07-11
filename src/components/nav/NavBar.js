@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
-// import logo from './nav.png';
-import logo from './MicrosoftTeams-image.png';
+import logo from './navLogo.jpeg';
+// import logo from './MicrosoftTeams-image.png';
 
 const NavBar = () => {
 
@@ -27,10 +27,10 @@ const NavBar = () => {
 
     <nav className="bg-black text-white flex justify-between px-[32px] w-[100%] h-[60px] items-center sm:overflow-hidden">
 
-      <img src={logo} alt="" className="h-[60px] md:h-[130px] rounded-full" />
+      <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full" />
 
       <div>
-        <div className="relative md:hidden">
+        <div className="relative lg:hidden">
 
           <div className='cursor-pointer ' onClick={handleOnClick}>
             <MenuIcon />
@@ -70,7 +70,7 @@ const NavBar = () => {
           }
         </div>
 
-        <ul className=" flex items-center hidden md:inline">
+        <ul className=" flex items-center hidden lg:inline">
           {navItems.map((item, index) => (
             <Link className="p-[16px]" to={item.path} key={index}>
               {item.name}
