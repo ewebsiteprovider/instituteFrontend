@@ -73,7 +73,7 @@ const BannerForm = () => {
 
           <h4 className="py-2 text-md md:text-2xl text-black">Appear in Instant Online</h4>
 
-          <h1 className="my-3 text-[red] text-[20px] md:text-[45px]">
+          <h1 className="my-3 text-[red] text-[20px] md:text-[45px] p-3 bg-white bg-opacity-80 rounded-xl">
             <strong> PATNA SCIENCE ACADEMY SCHOLARSHIP PROGRAM (PSASP)</strong>
           </h1>
 

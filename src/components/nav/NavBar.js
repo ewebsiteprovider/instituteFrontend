@@ -17,7 +17,8 @@ const NavBar = () => {
     { name: "Home", path: "/" },
     { name: "Foundation", path: "/foundation" },
     { name: "Scholarship", path: "/scholarship" },
-    { name: "Jee", path: "/jee" },
+    { name: "JEE", path: "/jee" },
+    { name: "NEET", path: "/neet" },
     { name: "Result", path: "/result" },
     { name: "Enquiry Now", path: "/enquiry" },
   ];
@@ -29,7 +30,7 @@ const NavBar = () => {
       <img src={logo} alt="" className="h-[60px] md:h-[130px] rounded-full" />
 
       <div>
-        <div className="relative sm:hidden">
+        <div className="relative md:hidden">
 
           <div className='cursor-pointer ' onClick={handleOnClick}>
             <MenuIcon />
@@ -51,7 +52,11 @@ const NavBar = () => {
                 </Link>
                 <div className='h-[1px] w-full bg-white'></div>
                 <Link to="/jee" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
-                  <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Jee</li>
+                  <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>JEE</li>
+                </Link>
+                <div className='h-[1px] w-full bg-white'></div>
+                <Link to="/neet" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>NEET</li>
                 </Link>
                 <div className='h-[1px] w-full bg-white'></div>
                 <Link to="/result" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
@@ -65,7 +70,7 @@ const NavBar = () => {
           }
         </div>
 
-        <ul className=" flex items-center hidden sm:inline">
+        <ul className=" flex items-center hidden md:inline">
           {navItems.map((item, index) => (
             <Link className="p-[16px]" to={item.path} key={index}>
               {item.name}

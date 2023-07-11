@@ -49,6 +49,8 @@ function Footer() {
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/">Home</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/foundation">Foundation</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/scholarship">Scholarship</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/jee">JEE</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/neet">NEET</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/result">Result</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/enquiry">Enquiry Now</Link></div>
         </div>

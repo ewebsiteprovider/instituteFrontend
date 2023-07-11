@@ -8,13 +8,13 @@ import QuizIcon from "@mui/icons-material/Quiz";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import Footer from "../footer";
 
-export default function JeeApp() {
+export default function NeetApp() {
 
   return (
     <section className="w-[100%] h-[calc(100%-60px)] bg-yellow-200 bg-opacity-80 overflow-y-scroll overflow-x-hidden">
 
       <div className="text-center py-5">
-        <h2 className="text-[30px] md:text-[40px] xl:text-[40px] font-bold">JEE (Main+Advanced) - 2025</h2>
+        <h2 className="text-[30px] md:text-[40px] xl:text-[40px] font-bold">NEET - 2025</h2>
         <p className="text-[15px] sm:text-lg py-5 px-5">
           WE ensures to provide quality education for the optimum results and
           success of students, so far, we have acquired remarkable selection
@@ -36,16 +36,16 @@ export default function JeeApp() {
         </div>
 
         <div className="my-[50px] mx-2 lg:mx-[80px] p-[20px] bg-white " id="course-highlights">
-          <h3 className="text-[28px] p-[18px]">Course Description of JEE (Main + Advanced)</h3>
+          <h3 className="text-[28px] p-[18px]">Course Description of NEET</h3>
           <p className="sm:text-[18px] p-[20px] leading-7 ">
             Patna Science Academy has long been distinguished for providing the
             Best class room Coaching, Online Learning Facility and getting
             excellent results. The curriculum is specifically designed for the
-            JEE 2025 aspirants along with their 11th preparations. To strengthen
+            NEET 2025 aspirants along with their 11th preparations. To strengthen
             the foundation, conceptual knowledge and enhance the academic skills
             this course is the best option. The course helps the aspirants with
             better understanding of the examination pattern and ensure their
-            success in the JEE with ease through a year-long curriculum.
+            success in the NEET with ease through a year-long curriculum.
           </p>
           <h3 className="text-[28px] pt-[18px]">Course Hightlights</h3>
           <div className="flex flex-col 2xl:flex-row my-[20px] px-[0px] w-[100%] ">
@@ -53,7 +53,7 @@ export default function JeeApp() {
               <div className="my-[20px] lg:mx-[50px] p-[10px] md:w-[520px] h-[100px] bg-white rounded-xl flex items-center space-x-5">
                 <SchoolIcon sx={{ color: "#1f3f65" }} />
                 <p className="text-[16px]">
-                  Structured Academic Planner for JEE 2025 & Also get Support
+                  Structured Academic Planner for NEET 2025 & Also get Support
                   for 12th Board Preparation
                 </p>
               </div>
@@ -91,7 +91,7 @@ export default function JeeApp() {
           <SchoolIcon sx={{ color: "#fff" }} />
           <p className="text-[18px] lg:text-[22px] text-white p-[8px] pl-[12px] leading-6 md:leading-8">
             <span className="text-[22px] text-yellow-300">590+</span> Online & Offline classes (Physics 170+, Chemistry
-            170+ & Mathematics 220+) with Lecture of 90 Minute Each.
+            170+ & Biology 220+) with Lecture of 90 Minute Each.
           </p>
         </div>
         <div className="my-[4px] xl:w-[880px] h-[100px] rounded-md flex items-center">
@@ -124,7 +124,7 @@ export default function JeeApp() {
 
       <div className="my-[20px] mx-[5px] lg:mx-[80px] p-[20px] flex flex-col items-center justify-evenly rounded-xl " id="fees-structure">
 
-        <h2 className="p-[20px] text-[30px] md:text-[40px] xl:text-[40px] font-bold text-center">Course Fee for 11th class- Targeting JEE 2025</h2>
+        <h2 className="p-[20px] text-[30px] md:text-[40px] xl:text-[40px] font-bold text-center">Course Fee for 11th class- Targeting NEET 2025</h2>
         <h5 className="pb-[10px] text-[15px] sm:text-lg">Available in classroom & Online (Live Mode)</h5>
 
         <div className="p-[20px] flex flex-col lg:flex-row space-y-10 lg:space-y-0 mt-10 items-center justify-evenly w-[1200px]">

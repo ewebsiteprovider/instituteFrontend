@@ -13,7 +13,7 @@ function Foundation() {
       }}>
         <div className="px-10 w-full h-full flex flex-col items-center justify-center bg-yellow-10 bg-opacity-30 ">
           <div>
-            <div className="py-5 md:py-14 text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-[red] font-bold">
+            <div className="py-5 md:py-14 text-[30px] sm:text-[40px] md:text-[50px] font-bold sm:leading-[70px] text-[red] font-bold underline">
               PATNA SCIENCE ACADEMY PROGRAM DETAILS
             </div>
 

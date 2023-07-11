@@ -1,27 +1,26 @@
 import React from 'react'
-import LottieAnimation from '../LottieAnimation'
 import bannerImage from './images/bannerImage2.jpeg';
 import Footer from '../footer'
 
 function Result() {
     return (
-        <div className='w-screen h-screen overflow-x-hidden space-y-10 bg-yellow-200 bg-opacity-80'>
+        <div className='w-screen h-[calc(100%-60px)] overflow-x-hidden space-y-10 bg-yellow-200 bg-opacity-80'>
 
-            <div className="h-[650px]" style={{
+            <div className="h-[450px]" style={{
                 backgroundImage: `url(${bannerImage})`,
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
             }}>
                 <div className='w-full h-full flex flex-col items-center justify-center bg-neutral-80 bg-opacity-20 space-y-5 sm:space-y-20'>
-                    <div className='text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-[red]'>Patna Science Academy</div>
+                    {/* <div className='text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-[red]'>Patna Science Academy</div> */}
                     <div className='text-[40px] sm:text-[50px] md:text-[63px] font-bold sm:leading-[70px] text-black'>Results</div>
                     <div className='flex flex-col sm:flex-row space-y-5 sm:space-y-0 sm:space-x-10'>
-                        <a href="#11th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>Class 11</div></a>
-                        <a href="#12th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>Class 12</div></a>
-                        <a href="#mains"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>JEE Mains</div></a>
-                        <a href="#advance"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>JEE Advance</div></a>
-                        <a href="#neet"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>NEET</div></a>
+                        <a href="#11th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>Class 11</div></a>
+                        <a href="#12th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>Class 12</div></a>
+                        <a href="#mains"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>JEE Mains</div></a>
+                        <a href="#advance"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>JEE Advance</div></a>
+                        <a href="#neet"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>NEET</div></a>
                     </div>
                 </div>
             </div>
