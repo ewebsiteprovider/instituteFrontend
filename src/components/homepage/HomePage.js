@@ -55,8 +55,8 @@ function HomePage() {
             </div>
 
             <div className="space-x-5">
-              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold"><Link to='/Scholarship'>Scholarship test</Link></button>
-              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold"><Link to='/enquiry'>Enquiry Now</Link></button>
+              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200"><Link to='/Scholarship'>Scholarship test</Link></button>
+              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200"><Link to='/enquiry'>Enquiry Now</Link></button>
             </div>
 
           </div>
