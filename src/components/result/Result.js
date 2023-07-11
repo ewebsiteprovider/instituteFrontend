@@ -1,21 +1,32 @@
 import React from 'react'
 import LottieAnimation from '../LottieAnimation'
+import bannerImage from './images/bannerImage2.jpeg';
 import Footer from '../footer'
 
 function Result() {
     return (
-        <div className='w-screen h-screen overflow-y-scroll overflow-x-hidden space-y-10'>
+        <div className='w-screen h-screen overflow-x-hidden space-y-10 bg-yellow-200 bg-opacity-80'>
 
-            <div className="h-[650px] py-5" style={{
-                backgroundImage: `url('https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/b561fbac-cb4f-4d06-a4d5-9b3773c90092/fb0dd8cff9d298e9f80e6a258993be2db12bc388.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom')`,
-                backgroundPosition: 'bottom center',
+            <div className="h-[650px]" style={{
+                backgroundImage: `url(${bannerImage})`,
+                backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
-                backgroundAttachment: 'fixed',
             }}>
+                <div className='w-full h-full flex flex-col items-center justify-center bg-neutral-80 bg-opacity-20 space-y-5 sm:space-y-20'>
+                    <div className='text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-[red]'>Patna Science Academy</div>
+                    <div className='text-[40px] sm:text-[50px] md:text-[63px] font-bold sm:leading-[70px] text-black'>Results</div>
+                    <div className='flex flex-col sm:flex-row space-y-5 sm:space-y-0 sm:space-x-10'>
+                        <a href="#11th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>Class 11</div></a>
+                        <a href="#12th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>Class 12</div></a>
+                        <a href="#mains"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>JEE Mains</div></a>
+                        <a href="#advance"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>JEE Advance</div></a>
+                        <a href="#neet"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200'>NEET</div></a>
+                    </div>
+                </div>
             </div>
 
-            <div className='w-full bg-yellow-200 bg-opacity-80 py-10'>
+            <div className='w-full bg-yellow-200 bg-opacity-80 py-10' id='11th'>
                 <div className='xl:w-[1300px] m-auto px-5'>
                     <div className='py-5 text-2xl font-bold '>
                         11th Board
@@ -28,15 +39,11 @@ function Result() {
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                     </div>
                 </div>
             </div>
 
-            <div className='w-full bg-yellow-200 bg-opacity-80 py-10'>
+            <div className='w-full bg-yellow-200 bg-opacity-80 py-10' id="12th">
                 <div className='xl:w-[1300px] m-auto px-5'>
                     <div className='py-5 text-2xl font-bold '>
                         12th Board
@@ -46,18 +53,11 @@ function Result() {
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                     </div>
                 </div>
             </div>
 
-            <div className='w-full bg-yellow-200 bg-opacity-80 py-10'>
+            <div className='w-full bg-yellow-200 bg-opacity-80 py-10' id="mains">
                 <div className='xl:w-[1300px] m-auto px-5'>
                     <div className='py-5 text-2xl font-bold '>
                         JEE Main
@@ -66,15 +66,11 @@ function Result() {
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                     </div>
                 </div>
             </div>
 
-            <div className='w-full bg-yellow-200 bg-opacity-80 py-10'>
+            <div className='w-full bg-yellow-200 bg-opacity-80 py-10' id="advance">
                 <div className='xl:w-[1300px] m-auto px-5'>
                     <div className='py-5 text-2xl font-bold '>
                         JEE Advance
@@ -90,13 +86,12 @@ function Result() {
                 </div>
             </div>
 
-            <div className='w-full bg-yellow-200 bg-opacity-80 py-10'>
+            <div className='w-full bg-yellow-200 bg-opacity-80 py-10' id="neet">
                 <div className='xl:w-[1300px] m-auto px-5'>
                     <div className='py-5 text-2xl font-bold '>
                         NEET
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>

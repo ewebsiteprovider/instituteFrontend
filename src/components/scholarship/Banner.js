@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import bannerImage from './images/bannerImage2.jpeg';
 
 const BannerForm = () => {
 
@@ -63,8 +62,8 @@ const BannerForm = () => {
   return (
 
     <div className="w-screen" style={{
-      backgroundImage: `url(${bannerImage})`,
-      backgroundPosition: 'center center',
+      backgroundImage: `url('https://media.istockphoto.com/id/1169220692/photo/cheerful-schoolgirl-in-graduation-outfit-carrying-apple-while-standing-beside-pile-of.jpg?s=612x612&w=0&k=20&c=2CbdvcCRWm6QouxgzC656c-O_yXu-Fgj6TRVSICD1vs=')`,
+      backgroundPosition: 'left',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
     }}>
@@ -93,7 +92,7 @@ const BannerForm = () => {
 
         </div>
 
-        <div className="my-10 sm:w-[400px md:w-[500px py-10 rounded-xl bg-neutral-700 bg-opacity-90 shadow-2xl">
+        <div className="my-10 py-10 rounded-xl bg-neutral-700 bg-opacity-80 shadow-2xl">
 
           <form className="px-5 lg:px-10 flex flex-col items-center justify-center" onSubmit={handleSubmit}>
             <h3 className="text-yellow-400 pb-10 text-3xl underline">Scholarship Form</h3>

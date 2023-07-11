@@ -77,7 +77,7 @@ function HomePage() {
         <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
           Learn from Patna's Best & Most Experienced Faculties
         </div>
-        <div className="text-[15px] sm:text-lg py-5 w-[1300px text-center -mb-8">
+        <div className="text-[15px] sm:text-lg py-5 text-center -mb-8">
           Every student is our top priority. To provide the best education we
           have various Classroom Courses available in Patna for JEE, NEET &
           Foundation. These courses include a thorough learning process

@@ -5,34 +5,36 @@ import FoundationTable from "./FoundationTable";
 function Foundation() {
   return (
     <div className="h-[calc(100vh_-_60px)] overflow-x-hidden text-center">
-      <div className="bg-yellow-200 h-[600px] flex flex-col items-center justify-center" style={{
-        backgroundImage: `url('https://learn.canva.com/wp-content/uploads/2016/04/1.-mage-by-Rodion-Kutsaev-via-Unsplash.jpg')`,
-        backgroundPosition: 'center bottom',
+      <div className="h-[600px] " style={{
+        backgroundImage: `url('https://img.freepik.com/premium-photo/laptop-books-copy-space_23-2148475431.jpg')`,
+        backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}>
-        <div className="w-full">
-          <div className="py-5 md:py-14 font-bold text-2xl tracking-wider">
-            PATNA SCIENCE ACADEMY PROGRAM DETAILS
-          </div>
+        <div className="px-10 w-full h-full flex flex-col items-center justify-center bg-yellow-10 bg-opacity-30 ">
+          <div>
+            <div className="py-5 md:py-14 text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-[red] font-bold">
+              PATNA SCIENCE ACADEMY PROGRAM DETAILS
+            </div>
 
-          <div className="py-5 flex flex-col md:flex-row space-y-5 md:space-y-0 items-center justify-center">
-            <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
-              <div className="p-2 text-sm">Batch Date</div>
-              <div className="font-bold w-[150px] p-3 px-1 text-sm">
-                5th April, 2023
+            <div className="py-5 flex flex-col md:flex-row space-y-5 md:space-y-0 items-center justify-center">
+              <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
+                <div className="p-2 text-sm">Batch Date</div>
+                <div className="font-bold w-[150px] p-3 px-1 text-sm">
+                  5th April, 2023
+                </div>
               </div>
-            </div>
-            <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
-              <div className="p-2 text-sm">Eligibility</div>
-              <div className="font-bold w-[150px] p-3 px-1 text-sm">
-                Minimum qualification class 10th
+              <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
+                <div className="p-2 text-sm">Eligibility</div>
+                <div className="font-bold w-[150px] p-3 px-1 text-sm">
+                  Minimum qualification class 10th
+                </div>
               </div>
-            </div>
-            <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
-              <div className="p-2 text-sm">Mode</div>
-              <div className="font-bold w-[150px] p-3 px-1 text-sm">
-                Offline 2023-24
+              <div className="mx-2 p-4 px-1 bg-white text-black rounded-xl">
+                <div className="p-2 text-sm">Mode</div>
+                <div className="font-bold w-[150px] p-3 px-1 text-sm">
+                  Offline 2023-24
+                </div>
               </div>
             </div>
           </div>

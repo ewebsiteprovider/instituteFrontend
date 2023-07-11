@@ -50,6 +50,10 @@ const NavBar = () => {
                   <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Scholarship</li>
                 </Link>
                 <div className='h-[1px] w-full bg-white'></div>
+                <Link to="/jee" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Jee</li>
+                </Link>
+                <div className='h-[1px] w-full bg-white'></div>
                 <Link to="/result" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
                   <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Result</li>
                 </Link>

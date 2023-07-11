@@ -3,7 +3,7 @@ import Home from "./components/homepage/HomePage";
 import NavBar from "./components/nav/NavBar";
 import Foundation from "./components/foundation";
 import Scholarship from "./components/scholarship";
-import JeeApp from "./jee/JeeApp";
+import JeeApp from "./components/jee/JeeApp";
 import Result from "./components/result/Result";
 import Enquiry from "./components/enquiry/Enquiry";
 
