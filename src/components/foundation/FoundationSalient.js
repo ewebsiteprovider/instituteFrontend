@@ -3,6 +3,9 @@ import Groups3Icon from '@mui/icons-material/Groups3';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import SaveAsIcon from '@mui/icons-material/SaveAs';
 import SchoolIcon from '@mui/icons-material/School';
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import ArticleIcon from '@mui/icons-material/Article';
+import StairsIcon from '@mui/icons-material/Stairs';
 
 function FoundationSalient() {
   return (
@@ -17,6 +20,12 @@ function FoundationSalient() {
         <SalientFeaturesCard logo={<AutoStoriesIcon sx={{ fontSize: '60px' }} />} heading="Course Content" title="Focused and concise course materials developed by some of the most experienced professionals in the field of competitive training." />
 
         <SalientFeaturesCard logo={<SchoolIcon sx={{ fontSize: '60px' }} />} heading="Class frequency-6 days a week" title="We conduct classes from Monday to Saturday. TImings are form 8:00 AM to 1:15 PM." />
+
+        <SalientFeaturesCard logo={<QuestionMarkIcon sx={{ fontSize: '60px' }} />} heading="Doubt Classes" title="Doubts can be dangerous. Thus, we conduct regular doubt classes for discussions so that a student is doubt free." />
+
+        <SalientFeaturesCard logo={<ArticleIcon sx={{ fontSize: '60px' }} />} heading="Paper Discussion" title="We hold paper discussion right after every exam so that students can analyse their mistakes and clear their doubts further." />
+
+        <SalientFeaturesCard logo={<StairsIcon sx={{ fontSize: '60px' }} />} heading="Level wise Exercises" title="Our exercises have been divided into sections such as JEE Main/Adv, integer type, subjective type etc which gradually increase in difficulty level so that you cover every aspect. Our exercises contain 20,000+ questions so that no stone is left unturned." />
 
       </div>
     </div>
