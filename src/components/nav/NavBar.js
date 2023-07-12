@@ -69,12 +69,43 @@ const NavBar = () => {
           }
         </div>
 
-        <ul className=" flex items-center lg:space-x-3 xl:space-x-5 hidden lg:inline">
+        <ul className=" flex flex-row items-center lg:space-x-3 xl:space-x-5 hidden lg:inline">
           {navItems.map((item, index) => (
             <Link className="p-[16px]" to={item.path} key={index}>
               {item.name}
             </Link>
           ))}
+
+
+          {/* <Link to="/" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Home</li>
+          </Link>
+          <div className='h-[1px] w-full bg-white'></div>
+          <Link to="/foundation" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Foundation</li>
+          </Link>
+          <div className='h-[1px] w-full bg-white'></div>
+          <Link to="/scholarship" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Scholarship</li>
+          </Link>
+          <div className='h-[1px] w-full bg-white'></div>
+          <Link to="/jee" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>JEE</li>
+          </Link>
+          <div className='h-[1px] w-full bg-white'></div>
+          <Link to="/neet" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>NEET</li>
+          </Link>
+          <div className='h-[1px] w-full bg-white'></div>
+          <Link to="/result" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Result</li>
+          </Link>
+          <div className='h-[1px] w-full bg-white'></div>
+          <Link to="/enquiry" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+            <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Enquiry Now</li>
+          </Link> */}
+          
+
         </ul>
 
       </div>

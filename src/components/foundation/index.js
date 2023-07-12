@@ -5,16 +5,16 @@ import FoundationTable from "./FoundationTable";
 function Foundation() {
   return (
     <div className="h-[calc(100vh_-_60px)] overflow-x-hidden text-center">
-      <div className="h-[600px] " style={{
+      <div className="h-[600px] bg-yellow-300" styl={{
         backgroundImage: `url('https://img.freepik.com/premium-photo/laptop-books-copy-space_23-2148475431.jpg')`,
         backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}>
-        <div className="px-10 w-full h-full flex flex-col items-center justify-center bg-yellow-10 bg-opacity-30 ">
+        <div className="px-10 w-full h-full flex flex-col items-center justify-center">
           <div>
             <div className="py-5 md:py-2 text-[30px] sm:text-[40px] md:text-[50px] font-bold sm:leading-[70px] text-[red] font-bold px-3 bg-white bg-opacity-80 rounded-xl underline">
-              PATNA SCIENCE ACADEMY PROGRAM DETAILS
+              <strong>PATNA SCIENCE ACADEMY PROGRAM DETAILS</strong>
             </div>
 
             <div className="py-5 flex flex-col md:flex-row space-y-5 md:space-y-0 items-center justify-center">
@@ -56,6 +56,35 @@ function Foundation() {
         </div>
       </div>
 
+      <div className="mb-10">
+        <div className="text-start py-5 px-10 w-[320px] md:w-[400px] xl:w-[600px] m-auto space-y-5 bg-yellow-200 bg-opacity-80 rounded-xl shadow-xl">
+          <div className="space-y-2">
+            <div className="text-[30px]">Eligibility</div>
+            <div className="text-[18px] md:ml-[80px]">
+              <li>10th Class Passed Candidate</li>
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <div className="text-[30px]">Medium</div>
+            <div className="text-[18px] md:ml-[80px]">
+              <li>Separate batches for English & Hindi Medium</li>
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <div className="text-[30px]">Mock Test</div>
+            <div className="text-[18px] md:ml-[80px]">
+              <li>First 25% Course</li>
+              <li>Second 50% Course</li>
+              <li>Third 75% Course</li>
+              <li>Fourth 100% Course</li>
+              <li>Fifth 100% Complete Course</li>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="">
         <FoundationSalient />
       </div>
@@ -64,9 +93,10 @@ function Foundation() {
         <FoundationTable />
       </div>
 
-      <div className="p-12 bg-yellow-200 bg-opacity-80">
+
+      {/* <div className="p-12 bg-yellow-200 bg-opacity-80">
         <div className="">
-          <div className="text-2xl  font-bold">OUR CENTER</div>
+          <div className="text-2xl font-bold">OUR CENTER</div>
           <div className="flex items-center justify-center p-4">
             <div className="mx-2 rounded-xl overflow-hidden shadow-xl">
               <div>
@@ -86,7 +116,8 @@ function Foundation() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
       <div className="h-[50px]"></div>
       <Footer />
     </div>
