@@ -4,8 +4,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import logo from './navLogo.jpeg';
-// import logo from './MicrosoftTeams-image.png';
+// import logo from './navLogo.jpeg';
+import logo from './MicrosoftTeams-image.png';
 
 const NavBar = () => {
 
