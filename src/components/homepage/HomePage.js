@@ -54,7 +54,7 @@ function HomePage() {
               JEE (Main + Advanced) | NEET | Boards
             </div>
 
-            <div className="space-x-5">
+            <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-5 sm:mb-[30px]">
               <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200"><Link to='/Scholarship'>Scholarship test</Link></button>
               <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200"><Link to='/enquiry'>Enquiry Now</Link></button>
             </div>
@@ -69,7 +69,7 @@ function HomePage() {
 
       </div>
 
-      <div className="mt-20 md:mt-36 px-5 flex flex-col items-center text-center">
+      <div className="mt-36 md:mt-36 lg:mt-32 px-5 flex flex-col items-center text-center">
         <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
           Learn from Patna's Best & Most Experienced Faculties
         </div>

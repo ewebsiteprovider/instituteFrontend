@@ -5,7 +5,8 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 // import logo from './navLogo.jpeg';
-import logo from './MicrosoftTeams-image.png';
+import logo from './navLogo2.png';
+// import logo from './MicrosoftTeams-image.png';
 
 const NavBar = () => {
 
@@ -54,7 +55,7 @@ const NavBar = () => {
 
       </div>
 
-      <nav className="bg-black text-white flex justify-between lg:justify-evenly px-[32px] w-[100%] h-[100px] items-center sm:overflow-hidden">
+      <nav className="bg-black text-white flex justify-between lg:justify-evenly px-[32px] w-[100%] h-[70px] lg;h-[100px] items-center sm:overflow-hidden">
 
         <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full" />
 
@@ -62,7 +63,7 @@ const NavBar = () => {
           <div className="relative lg:hidden">
 
             <div className='cursor-pointer ' onClick={handleOnClick}>
-              <MenuIcon />
+              <MenuIcon sx={{fontSize:'33px'}} />
             </div>
 
             {
@@ -103,7 +104,7 @@ const NavBar = () => {
           <ul className="flex items-center lg:space-x-3 xl:space-x-5 hidden lg:inline">
 
             {navItems.map((item, index) => (
-              <Link className="p-[16px]" to={item.path} key={index}>
+              <Link className="p-[16px] hover:text-yellow-400 duration-300" to={item.path} key={index}>
                 {item.name}
               </Link>
             ))}
