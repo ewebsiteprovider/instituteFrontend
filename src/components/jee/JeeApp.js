@@ -11,7 +11,7 @@ import Footer from "../footer";
 export default function JeeApp() {
 
   return (
-    <section className="w-[100%] h-[calc(100%-60px)] bg-yellow-200 bg-opacity-80 overflow-y-scroll overflow-x-hidden">
+    <section className="w-[100%] h-[calc(100%-180px)] bg-yellow-200 bg-opacity-80 overflow-y-scroll overflow-x-hidden">
 
       <div className="text-center py-5">
         <h2 className="text-[30px] md:text-[40px] xl:text-[40px] font-bold">JEE (Main+Advanced) - 2025</h2>
