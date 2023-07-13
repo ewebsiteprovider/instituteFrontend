@@ -7,7 +7,7 @@ import pattern from "./pattern.jpg";
 function Footer() {
   return (
     <div
-      className=" leading-10 mt-2"
+      className="leading-10 mt-2 h-[520px"
       style={{
         backgroundImage: `url(${pattern})`,
         backgroundSize: "cover",

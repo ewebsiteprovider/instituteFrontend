@@ -4,7 +4,7 @@ import EnquiryForm from './EnquiryForm'
 
 function Enquiry() {
     return (
-        <div className='h-screen relative overflow-x-hidden' style={{
+        <div className='h-[calc(100%-120px)] relative overflow-x-hidden' style={{
             backgroundImage: `url('https://assets.tes.com/magazine-attachments/s3fs-public/styles/amp_1200x675_16_9/public/media/image/archived/istock-957511688.jpg?itok=VBf-CbHy')`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
