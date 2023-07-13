@@ -30,26 +30,26 @@ const NavBar = () => {
 
     <div>
 
-      <div className="flex items-center justify-evenly hidden lg:flex">
+      <div className="flex items-center justify-evenly">
 
-        <div className="w-[200px] flex items-center justify-evenly">
+        <div className="w-[200px] flex items-center justify-evenly hidden lg:flex">
           <FacebookRoundedIcon sx={{ fontSize: '40px', color:'#3b5998' }} className="cursor-pointer hover:text-black" />
           <TwitterIcon sx={{ fontSize: '40px', color:'#00acee' }} className="cursor-pointer hover:text-black" />
           <LinkedInIcon sx={{ fontSize: '40px', color:' #0A66C2' }} className="cursor-pointer hover:text-black" />
         </div>
 
-        <div className="flex items-center space-x-10">
-          <div className="w-[180px] cursor-pointer">
+        <div className="flex items-center space-x-5 md:space-x-10">
+          <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
             <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622486075_1767.gif" alt="" />
           </div>
 
-          <div className="w-[180px] cursor-pointer">
+          <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
             <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622473322_1502.png" alt="" />
           </div>
         </div>
 
         <div className="flex items-center">
-          <button className="px-3 py-1 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Login</button>
+          <button className="px-2 md:px-3 py-1 text-sm md:text-xl bg-[red] bg-opacity-80 rounded-md lg:rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Login</button>
         </div>
 
       </div>
