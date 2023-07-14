@@ -31,13 +31,13 @@ function Result() {
                         11th Board
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-                        <div className='mx-2 my-2 sm:w-[200px] border-2'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                     </div>
                 </div>
             </div>
@@ -48,10 +48,10 @@ function Result() {
                         12th Board
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                     </div>
                 </div>
             </div>
@@ -62,9 +62,9 @@ function Result() {
                         JEE Main
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                     </div>
                 </div>
             </div>
@@ -75,12 +75,12 @@ function Result() {
                         JEE Advance
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                     </div>
                 </div>
             </div>
@@ -91,14 +91,14 @@ function Result() {
                         NEET
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
-                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://www.ts.mentorsedu.com/gallery/photo_thumb_img_6292.png" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
+                        <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                     </div>
                 </div>
             </div>
