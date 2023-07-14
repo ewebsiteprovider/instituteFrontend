@@ -7,6 +7,8 @@ import JeeApp from "./components/jee/JeeApp";
 import NeetApp from "./components/neet/NeetApp";
 import Result from "./components/result/Result";
 import Enquiry from "./components/enquiry/Enquiry";
+import LoginPage from "./components/loginForm/LoginPage";
+import RegistrationPage from "./components/registrationForm/RegistrationPage";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route exact path="/neet" element={<NeetApp />} />
           <Route exact path="/result" element={<Result />} />
           <Route exact path="/enquiry" element={<Enquiry />} />
+          <Route exact path="/login" element={<LoginPage />} />
+          <Route exact path="/register" element={<RegistrationPage />} />
         </Routes>
       </BrowserRouter>
     </div>

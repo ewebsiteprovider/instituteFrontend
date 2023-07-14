@@ -19,8 +19,8 @@ const NavBar = () => {
 
   const navItems = [
     { name: "Home", path: "/" },
-    { name: "Foundation", path: "/foundation" },
     { name: "Scholarship", path: "/scholarship" },
+    { name: "Foundation", path: "/foundation" },
     { name: "JEE", path: "/jee" },
     { name: "NEET", path: "/neet" },
     { name: "Result", path: "/result" },
@@ -50,7 +50,9 @@ const NavBar = () => {
         </div>
 
         <div className="flex items-center">
-          <button className="px-2 md:px-3 py-1 text-sm md:text-xl bg-[red] bg-opacity-80 rounded-md lg:rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Login</button>
+          <Link to="/login">
+            <button className="px-2 md:px-3 py-1 text-sm md:text-xl bg-[red] bg-opacity-80 rounded-md lg:rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Login</button>
+          </Link>
         </div>
 
       </div>
@@ -73,12 +75,12 @@ const NavBar = () => {
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Home</li>
                   </Link>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/foundation" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
-                    <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Foundation</li>
-                  </Link>
-                  <div className='h-[1px] w-full bg-white'></div>
                   <Link to="/scholarship" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Scholarship</li>
+                  </Link>
+                  <div className='h-[1px] w-full bg-white'></div>
+                  <Link to="/foundation" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                    <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Foundation</li>
                   </Link>
                   <div className='h-[1px] w-full bg-white'></div>
                   <Link to="/jee" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
