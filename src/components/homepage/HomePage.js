@@ -32,7 +32,7 @@ function HomePage() {
   ];
 
   return (
-    <div className="h-[calc(100%_-_120px)] w-screen overflow-x-hidden bg-yellow-200 bg-opacity-80">
+    <div className="h-[calc(100%_-_110px)] w-screen overflow-x-hidden bg-yellow-200 bg-opacity-80">
 
       <div className="w-screen md:min-h-max lg:h-screen bg-gradient-to-b from-yellow-500">
 

@@ -11,7 +11,7 @@ import BannerForm from "./Banner";
 
 export default function Scholarship() {
   return (
-    <div className="h-[calc(100%_-_120px)] text-center bg-yellow-200 bg-opacity-80 overflow-x-hidden">
+    <div className="h-[calc(100%_-_110px)] text-center bg-yellow-200 bg-opacity-80 overflow-x-hidden">
 
       <BannerForm />
 

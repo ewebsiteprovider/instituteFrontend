@@ -4,7 +4,7 @@ import FoundationTable from "./FoundationTable";
 
 function Foundation() {
   return (
-    <div className="h-[calc(100vh_-_120px)] overflow-x-hidden text-center">
+    <div className="h-[calc(100vh_-_110px)] overflow-x-hidden text-center">
       <div className="h-[600px] bg-yellow-300" styl={{
         backgroundImage: `url('https://img.freepik.com/premium-photo/laptop-books-copy-space_23-2148475431.jpg')`,
         backgroundPosition: 'top',

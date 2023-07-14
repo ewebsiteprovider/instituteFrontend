@@ -4,7 +4,7 @@ import Footer from '../footer'
 
 function Result() {
     return (
-        <div className='w-screen h-[calc(100%-155px)] overflow-x-hidden space-y-10 bg-yellow-200 bg-opacity-80'>
+        <div className='w-screen h-[calc(100%-110px)] overflow-x-hidden space-y-10 bg-yellow-200 bg-opacity-80'>
 
             <div className="h-[450px]" style={{
                 backgroundImage: `url(${bannerImage})`,
