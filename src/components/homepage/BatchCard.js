@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function BatchCard({ props }) {
   return (
-    <div className="p-5 shadow-2xl rounded-xl bg-yellow-300">
+    <div className="p-5 shadow-2xl rounded-xl bg-yellow-300 hover:scale-[1.03] duration-300">
       <div className="w-full md:h-[200px] lg:h-[150px] xl:h-[200px] 2xl:h-[250px] bg-red-200 rounded-xl overflow-hidden">
         <img src={props.source} alt="" />
       </div>
