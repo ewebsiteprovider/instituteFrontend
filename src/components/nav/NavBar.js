@@ -48,6 +48,10 @@ const NavBar = () => {
           <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
             <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622473322_1502.png" alt="" />
           </div>
+
+          {/* <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
+            <a href="tel:7258990003">+91 7258990003</a>
+          </div> */}
         </div>
 
         <div className="flex items-center">
@@ -60,7 +64,9 @@ const NavBar = () => {
 
       <nav className="bg-black text-white flex justify-between lg:justify-evenly px-[32px] w-[100%] h-[70px] lg;h-[100px] items-center sm:overflow-hidden">
 
-        <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full" />
+        <Link to="/">
+          <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full" />
+        </Link>
 
         <div>
           <div className="relative lg:hidden">
