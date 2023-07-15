@@ -40,7 +40,7 @@ const NavBar = () => {
 
         <div className="flex items-center space-x-5 md:space-x-10">
           <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
-            <ReactWhatsapp number="+917258990003" message="Hi.....">
+            <ReactWhatsapp number="+919693243809" message="Hi.....">
               <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622486075_1767.gif" alt="" />
             </ReactWhatsapp>
           </div>
