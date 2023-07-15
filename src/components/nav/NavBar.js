@@ -1,12 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import ReactWhatsapp from 'react-whatsapp';
 import MenuIcon from '@mui/icons-material/Menu';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-// import logo from './navLogo.jpeg';
 import logo from './navLogo2.png';
-// import logo from './MicrosoftTeams-image.png';
 
 const NavBar = () => {
 
@@ -34,14 +33,16 @@ const NavBar = () => {
       <div className="flex items-center justify-evenly">
 
         <div className="w-[200px] flex items-center justify-evenly hidden lg:flex">
-          <FacebookRoundedIcon sx={{ fontSize: '40px', color:'#3b5998' }} className="cursor-pointer hover:text-black" />
-          <TwitterIcon sx={{ fontSize: '40px', color:'#00acee' }} className="cursor-pointer hover:text-black" />
-          <LinkedInIcon sx={{ fontSize: '40px', color:' #0A66C2' }} className="cursor-pointer hover:text-black" />
+          <FacebookRoundedIcon sx={{ fontSize: '40px', color: '#3b5998' }} className="cursor-pointer hover:text-black" />
+          <TwitterIcon sx={{ fontSize: '40px', color: '#00acee' }} className="cursor-pointer hover:text-black" />
+          <LinkedInIcon sx={{ fontSize: '40px', color: ' #0A66C2' }} className="cursor-pointer hover:text-black" />
         </div>
 
         <div className="flex items-center space-x-5 md:space-x-10">
           <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
-            <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622486075_1767.gif" alt="" />
+            <ReactWhatsapp number="+917258990003" message="I am interested.....">
+              <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622486075_1767.gif" alt="" />
+            </ReactWhatsapp>
           </div>
 
           <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
@@ -65,7 +66,7 @@ const NavBar = () => {
           <div className="relative lg:hidden">
 
             <div className='cursor-pointer ' onClick={handleOnClick}>
-              <MenuIcon sx={{fontSize:'33px'}} />
+              <MenuIcon sx={{ fontSize: '33px' }} />
             </div>
 
             {
