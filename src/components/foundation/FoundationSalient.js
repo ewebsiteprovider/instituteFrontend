@@ -6,6 +6,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import ArticleIcon from '@mui/icons-material/Article';
 import StairsIcon from '@mui/icons-material/Stairs';
+import AssignmentIcon from '@mui/icons-material/Assignment';
 
 function FoundationSalient() {
   return (
@@ -26,6 +27,8 @@ function FoundationSalient() {
         <SalientFeaturesCard logo={<ArticleIcon sx={{ fontSize: '60px' }} />} heading="Paper Discussion" title="We hold paper discussion right after every exam so that students can analyse their mistakes and clear their doubts further." />
 
         <SalientFeaturesCard logo={<StairsIcon sx={{ fontSize: '60px' }} />} heading="Level wise Exercises" title="Our exercises have been divided into sections such as JEE Main/Adv, integer type, subjective type etc which gradually increase in difficulty level so that you cover every aspect. Our exercises contain 20,000+ questions so that no stone is left unturned." />
+
+        <SalientFeaturesCard logo={<AssignmentIcon sx={{ fontSize: '60px' }} />} heading="Best Practices" title="BASE training focuses on good concept teaching, logic of problem solving and solving MCQs. This is the key takeaway from a BASE course. It stays for life." />
 
       </div>
     </div>
