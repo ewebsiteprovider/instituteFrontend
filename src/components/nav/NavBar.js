@@ -56,7 +56,7 @@ const NavBar = () => {
 
         <div className="flex items-center">
           <Link to="/login">
-            <button className="px-2 md:px-3 py-1 text-sm md:text-xl bg-[red] bg-opacity-80 rounded-md lg:rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Login</button>
+            <button className="px-2 md:px-3 py-1 text-sm md:text-xl bg-[red] bg-opacity-80 rounded-md lg:rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200">Login</button>
           </Link>
         </div>
 
