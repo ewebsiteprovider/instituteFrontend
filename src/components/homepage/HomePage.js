@@ -116,19 +116,19 @@ function HomePage() {
                 16+ Year of legacy in JEE/NEET Coaching
               </li>
               <li className="leading-[60px] text-lg">
-                16+ Year of legacy in JEE/NEET Coaching
+                Experienced Faculty
               </li>
               <li className="leading-[60px] text-lg">
-                16+ Year of legacy in JEE/NEET Coaching
+                Regular doubt classes
               </li>
               <li className="leading-[60px] text-lg">
-                16+ Year of legacy in JEE/NEET Coaching
+                Mock test after completion of units
               </li>
               <li className="leading-[60px] text-lg">
-                16+ Year of legacy in JEE/NEET Coaching
+                Paper discussion after test
               </li>
               <li className="leading-[60px] text-lg">
-                16+ Year of legacy in JEE/NEET Coaching
+                Parent Teacher Meet (PTM) once a week
               </li>
             </ul>
           </div>
