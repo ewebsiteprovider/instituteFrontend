@@ -25,13 +25,13 @@ export default function JeeApp() {
       <div className="">
         <div className="flex flex-col sm:flex-row items-center justify-evenly py-5 space-y-5 sm:space-y-0">
           <a href="#course-highlights">
-            <div className="p-3 sm:text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Course Description</div>
+            <div className="p-3 sm:text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200">Course Description</div>
           </a>
           <a href="#planner">
-            <div className="p-3 sm:text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Planner</div>
+            <div className="p-3 sm:text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200">Planner</div>
           </a>
           <a href="#fees-structure">
-            <div className="p-3 sm:text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:text-yellow-200 hover:bg-red-600 duration-200">Fees Structure</div>
+            <div className="p-3 sm:text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200">Fees Structure</div>
           </a>
         </div>
 

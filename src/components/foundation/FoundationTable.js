@@ -47,7 +47,7 @@ function FoundationTable() {
         </div>
       </div>
 
-      <button className="p-2 bg-[red] bg-opacity-80 hover:bg-opacity-100 text-white rounded-lg max-w-max m-auto cursor-pointer">
+      <button className="p-2 bg-[red] bg-opacity-80 hover:bg-opacity-100 text-white rounded-lg max-w-max m-auto hover:scale-105 duration-300 cursor-pointer">
         <Link>Fee Payment</Link>
       </button>
     </div>

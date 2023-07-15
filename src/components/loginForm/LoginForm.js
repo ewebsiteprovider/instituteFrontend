@@ -46,7 +46,7 @@ const LoginForm = () => {
                         <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="password" value={password} onChange={handlePasswordChange} placeholder='Your Password' required />
                     </div>
 
-                    <button type='submit' className='p-2 text-black rounded-lg text-lg hover:scale-105 duration-300' style={{ color: 'white', fontWeight: '500', backgroundColor: 'rgba(245, 39, 39, 0.9)', }}>
+                    <button type='submit' className='p-2 text-black rounded-lg text-lg hover:scale-105 duration-300' style={{ color: 'white', fontWeight: '500', backgroundColor: 'rgba(255, 0, 0, 1)', }}>
                         Login
                     </button>
 

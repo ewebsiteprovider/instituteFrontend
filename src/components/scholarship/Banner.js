@@ -243,8 +243,8 @@ const BannerForm = () => {
               </div>
             </div>
 
-            <div className="">
-              <button type="submit" style={{ color: 'white', fontWeight: '500', backgroundColor: 'rgba(255, 0, 0, 1)', padding: '8px 15px', borderRadius: '7px' }}>Register</button>
+            <div className="rounded-xl hover:bg-red-600 hover:scale-105 duration-200">
+              <button type="submit" style={{ color: 'white', fontWeight: '600', backgroundColor: 'rgba(255, 0, 0, 1)', padding: '8px 15px', borderRadius: '7px' }}>Register</button>
             </div>
 
             <p className="underline mt-10">

@@ -16,11 +16,11 @@ function Result() {
                     {/* <div className='text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-[red]'>Patna Science Academy</div> */}
                     <div className='text-[40px] sm:text-[50px] md:text-[63px] font-bold sm:leading-[70px] text-black'>Results</div>
                     <div className='flex flex-col sm:flex-row space-y-5 sm:space-y-0 sm:space-x-10'>
-                        <a href="#11th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>Class 11</div></a>
-                        <a href="#12th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>Class 12</div></a>
-                        <a href="#mains"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>JEE Mains</div></a>
-                        <a href="#advance"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>JEE Advance</div></a>
-                        <a href="#neet"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:text-yellow-200 hover:bg-red-600 duration-200'>NEET</div></a>
+                        <a href="#11th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:bg-red-600 hover:scale-105 duration-200'>Class 11</div></a>
+                        <a href="#12th"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:bg-red-600 hover:scale-105 duration-200'>Class 12</div></a>
+                        <a href="#mains"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:bg-red-600 hover:scale-105 duration-200'>JEE Mains</div></a>
+                        <a href="#advance"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:bg-red-600 hover:scale-105 duration-200'>JEE Advance</div></a>
+                        <a href="#neet"><div className='p-3 bg-[red] bg-opacity-80 rounded-xl text-white text-center font-bold hover:bg-red-600 hover:scale-105 duration-200'>NEET</div></a>
                     </div>
                 </div>
             </div>
