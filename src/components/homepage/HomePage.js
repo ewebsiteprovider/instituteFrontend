@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Marquee from "react-fast-marquee";
 import BatchCard from "./BatchCard";
 import Footer from "../footer";
 import LottieAnimation from "../LottieAnimation";
@@ -55,8 +56,16 @@ function HomePage() {
             </div>
 
             <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-5 sm:mb-[30px]">
-              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200"><Link to='/Scholarship'>Scholarship test</Link></button>
-              <button className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200"><Link to='/enquiry'>Enquiry Now</Link></button>
+              <Link to='/Scholarship'>
+                <div className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200 cursor-pointer">
+                  Scholarship test
+                </div>
+              </Link>
+              <Link to='/enquiry'>
+                <div className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200 cursor-pointer">
+                  Enquiry Now
+                </div>
+              </Link>
             </div>
 
           </div>
@@ -69,7 +78,27 @@ function HomePage() {
 
       </div>
 
-      <div className="mt-36 md:mt-36 lg:mt-32 px-5 flex flex-col items-center text-center">
+      <div className="px-5 flex flex-col items-center pt-20 pb-10 text-center">
+        <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
+          Latest Announcements
+        </div>
+        <div className="text-[15px] sm:text-lg py-5 text-[red] 2xl:w-[1600px]">
+          <Marquee>
+            Get the latest update regarding JEE, NEET, BIHAR BOARD, UP BOARD, CBSE, ICSE & Olympiad Exams
+            and stay ahead with all-round performance in your chosen stream
+          </Marquee>
+        </div>
+        <div className="flex items-center justify-center">
+          <div className="px-3 py-2 mx-1 border-2 border-black bg-yellow-400 cursor-default rounded-xl">
+            New Courses & Announcement
+          </div>
+          <div className="px-3 py-2 mx-1 border-2 border-black hover: hover:bg-yellow-400 cursor-default duration-300 rounded-xl">
+            Previous Year Ques. & Answer
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-24 md:mt-36 lg:mt-32 px-5 flex flex-col items-center text-center">
         <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
           Learn from Patna's Best & Most Experienced Faculties
         </div>
@@ -87,30 +116,12 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="px-5 flex flex-col items-center pt-20 pb-10 text-center">
-        <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
-          Latest Announcements
-        </div>
-        <div className="text-[15px] sm:text-lg py-5">
-          Get the latest update regarding JEE, NEET, NTSE, CBSE & Olympiad Exams
-          and stay ahead with all-round performance in your chosen stream
-        </div>
-        <div className="flex items-center justify-center">
-          <div className="px-3 py-2 mx-1 border-2 border-black bg-yellow-400 cursor-default rounded-xl">
-            New Courses & Announcement
-          </div>
-          <div className="px-3 py-2 mx-1 border-2 border-black hover: hover:bg-yellow-400 cursor-default duration-300 rounded-xl">
-            Previous Year Ques. & Answer
-          </div>
-        </div>
-      </div>
-
       <div className="p-5 my-8 bg-yellow-300">
         <div className="px-5">
           <div className="font-bold text-[30px] sm:text-3xl md:leading-[70px]">
             Curious to know what makes us unique?
           </div>
-          <div>
+          <div className=''>
             <ul className="list-disc">
               <li className="leading-[60px] text-lg">
                 16+ Year of legacy in JEE/NEET Coaching

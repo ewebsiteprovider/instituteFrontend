@@ -10,6 +10,7 @@
     "lottie-web": "^5.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.0",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
     "react-whatsapp": "^0.3.0",
