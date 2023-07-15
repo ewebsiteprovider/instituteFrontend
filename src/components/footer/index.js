@@ -34,21 +34,25 @@ function Footer() {
           <div className="cursor-pointer text-sm my-4">
             <a href="https://neet.nta.nic.in/information-bulletin/" target="_blank">NEET</a>
           </div>
-          <div className="cursor-pointer text-sm my-4">Registration form</div>
+          <Link to="/register">
+            <div className="cursor-pointer text-sm my-4">Registration form</div>
+          </Link>
           <div className="cursor-pointer text-sm my-4">Admission Open</div>
         </div>
 
         <div className="my-5">
           <div className="font-bold text-xl">Contact Us</div>
-          <div className="cursor-pointer text-sm my-4">Contact Us</div>
+          <Link to="/enquiry">
+            <div className="cursor-pointer text-sm my-4">Contact Us</div>
+          </Link>
           <div className="cursor-pointer text-sm my-4">Feedback</div>
         </div>
 
         <div className="my-5">
           <div className="font-bold text-xl">Useful Links</div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/">Home</Link></div>
-          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/foundation">Foundation</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/scholarship">Scholarship</Link></div>
+          <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/foundation">Foundation</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/jee">JEE</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/neet">NEET</Link></div>
           <div className="cursor-pointer text-sm my-4 hover:text-gray-300"><Link to="/result">Result</Link></div>
