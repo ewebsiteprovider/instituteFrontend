@@ -57,12 +57,12 @@ function HomePage() {
 
             <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-5 sm:mb-[30px]">
               <Link to='/Scholarship'>
-                <div className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200 cursor-pointer">
+                <div className="p-3 text-xl text-center bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200 cursor-pointer">
                   Scholarship test
                 </div>
               </Link>
               <Link to='/enquiry'>
-                <div className="p-3 text-xl bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200 cursor-pointer">
+                <div className="p-3 text-xl text-center bg-[red] bg-opacity-80 rounded-xl text-white font-bold hover:bg-red-600 hover:scale-105 duration-200 cursor-pointer">
                   Enquiry Now
                 </div>
               </Link>

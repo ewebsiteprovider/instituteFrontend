@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ReactWhatsapp from 'react-whatsapp';
 import MenuIcon from '@mui/icons-material/Menu';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
@@ -8,6 +8,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from './navLogo2.png';
 
 const NavBar = () => {
+
+  const navigate = useNavigate();
 
   const [status, setStatus] = useState(false);
 
@@ -62,13 +64,13 @@ const NavBar = () => {
 
       </div>
 
-      <nav className="bg-black text-white flex justify-between lg:justify-evenly px-[32px] w-[100%] h-[70px] lg;h-[100px] items-center sm:overflow-hidden">
+      <nav className="bg-black text-white flex justify-between lg:justify-between px-[32px] w-[100%] h-[70px] lg;h-[100px] items-center sm:overflow-hidden">
 
-        <Link to="/">
-          <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full" />
-        </Link>
+        <div className="w-[25%] xl:w-[40%] flex justify-center">
+            <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full cursor-pointer" onClick={()=>navigate('/')} />
+        </div>
 
-        <div>
+        <div className="">
           <div className="relative lg:hidden">
 
             <div className='cursor-pointer ' onClick={handleOnClick}>
