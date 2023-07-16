@@ -35,7 +35,7 @@ const NavBar = () => {
 
       <div className="flex items-center justify-evenly">
 
-        <div className="w-[200px] flex items-center justify-evenly hidden lg:flex">
+        <div className="w-[200px] flex items-center justify-between hidden lg:flex">
           <FacebookRoundedIcon sx={{ fontSize: '40px', color: '#3b5998' }} className="cursor-pointer hover:text-black" />
           <TwitterIcon sx={{ fontSize: '40px', color: '#00acee' }} className="cursor-pointer hover:text-black" />
           <LinkedInIcon sx={{ fontSize: '40px', color: ' #0A66C2' }} className="cursor-pointer hover:text-black" />
@@ -48,13 +48,14 @@ const NavBar = () => {
             </ReactWhatsapp>
           </div>
 
-          <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
+          {/* <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
             <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622473322_1502.png" alt="" />
+          </div> */}
+
+          <div className="w-[90px] md:w-[110px] lg:w-[140px] cursor-pointer" onClick={()=>navigate('/scholarship')}>
+            <img src="https://www.jupitersmriti.com/images/jupiter__image/sm____jupiter_img-2.png" alt="" />
           </div>
 
-          {/* <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
-            <a href="tel:+91 7258990003">7372098 pagal smjha hai kya</a>
-          </div> */}
         </div>
 
         <div className="flex items-center">
