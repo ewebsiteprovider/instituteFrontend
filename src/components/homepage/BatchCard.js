@@ -8,7 +8,7 @@ function BatchCard({ props }) {
       </div>
       <div className="py-2 text-lg font-bold">{props.name}</div>
       <div className="text-md">{props.class}</div>
-      <div className="text-md">{props.duration}</div>
+      {/* <div className="text-md">{props.duration}</div> */}
       <div className="text-md">Target Year - {props.target}</div>
       <Link to={`${props.link}`}>
         <div className="px-2 py-2 mt-4 bg-red-600 hover:bg-red-700 text-white w-[120px] rounded-lg cursor-pointer">
