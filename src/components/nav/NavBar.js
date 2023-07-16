@@ -66,11 +66,11 @@ const NavBar = () => {
 
       <nav className="bg-black text-white flex justify-between lg:justify-between px-[32px] w-[100%] h-[70px] lg;h-[100px] items-center sm:overflow-hidden">
 
-        <div className="w-[25%] xl:w-[40%] flex justify-center">
+        <div className="w-[25%] xl:w-[35%] 2xl:w-[40%] flex justify-center">
             <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full cursor-pointer" onClick={()=>navigate('/')} />
         </div>
 
-        <div className="">
+        <div className="2xl:mr-64">
           <div className="relative lg:hidden">
 
             <div className='cursor-pointer ' onClick={handleOnClick}>
