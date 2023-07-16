@@ -15,7 +15,7 @@ export default function LottieAnimation({ animationUrl }) {
           animation = lottie.loadAnimation({
             container: lottieContainer.current,
             renderer: "svg",
-            loop: false,
+            loop: true,
             autoplay: true,
             animationData: animationData,
           });

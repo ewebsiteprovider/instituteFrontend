@@ -31,7 +31,7 @@ const NavBar = () => {
 
   return (
 
-    <div>
+    <div className="">
 
       <div className="flex items-center justify-evenly">
 
