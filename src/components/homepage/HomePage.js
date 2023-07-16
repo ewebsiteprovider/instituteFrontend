@@ -40,7 +40,7 @@ function HomePage() {
         <div className="w-screen min-h-max lg:h-screen flex flex-col xl:flex-row items-center justify-evenly space-y-6 md:space-y-36 xl:space-y-0 md:space-x-5 p-4">
           <div className="mt-20 xl:mt-0">
 
-            <div className="text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-black">
+            <div className="text-[30px] sm:text-[40px] md:text-[53px] font-bold sm:leading-[70px] text-black cursor-default">
 
               <div>
                 <span className="text-[red]">Rank</span> Chahiye ??
@@ -117,29 +117,29 @@ function HomePage() {
       </div>
 
       <div className="p-5 my-8 bg-yellow-300">
-        <div className="px-5">
-          <div className="font-bold text-[30px] sm:text-3xl md:leading-[70px]">
+        <div className="px-5 m-auto md:w-[600px]">
+          <div className="font-bold text-[20px] sm:text-3xl md:leading-[70px]">
             Curious to know what makes us unique?
           </div>
-          <div className=''>
+          <div className='ml-5'>
             <ul className="list-disc">
-              <li className="leading-[60px] text-lg">
+              <li className="leading-[50px] lg:leading-[60px] text-[14px] md:text-lg">
                 16+ Year of legacy in JEE/NEET Coaching
               </li>
-              <li className="leading-[60px] text-lg">
+              <li className="leading-[50px] lg:leading-[60px] text-[14px] md:text-lg">
                 Experienced Faculty
               </li>
-              <li className="leading-[60px] text-lg">
+              <li className="leading-[50px] lg:leading-[60px] text-[14px] md:text-lg">
                 Regular doubt classes
               </li>
-              <li className="leading-[60px] text-lg">
+              <li className="leading-[50px] lg:leading-[60px] text-[14px] md:text-lg">
                 Mock test after completion of units
               </li>
-              <li className="leading-[60px] text-lg">
+              <li className="leading-[50px] lg:leading-[60px] text-[14px] md:text-lg">
                 Paper discussion after test
               </li>
-              <li className="leading-[60px] text-lg">
-                Parent Teacher Meet (PTM) once a week
+              <li className="leading-[50px] lg:leading-[60px] text-[14px] md:text-lg">
+                Parent Teacher Meet (PTM) once in a week
               </li>
             </ul>
           </div>
@@ -150,25 +150,6 @@ function HomePage() {
           className="w-[700px]"
         />
       </div>
-
-      {/* <div className="px-5 flex flex-col items-center py-16 text-center">
-        <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
-          Performance Booster Courses
-        </div>
-        <div className="text-[15px] sm:text-lg py-5 -mb-14">
-          For long-term success, stay up to date on short-term courses. Find out
-          what new initiatives will help you all perform better on exams as
-          well.
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[100%] text-start px-[16px] gap-[16px]">
-        {jeeBatchDetails.map((ele, index) => (
-          <BatchCard props={ele} key={index} />
-        ))}
-      </div> */}
-
-      {/* <div className="h-[100px]"></div> */}
 
       <Footer />
     </div>
