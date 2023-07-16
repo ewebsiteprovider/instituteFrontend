@@ -42,7 +42,7 @@ const NavBar = () => {
         </div>
 
         <div className="flex items-center space-x-5 md:space-x-10">
-          <div className="w-[60px] md:w-[40px lg:w-[80px] cursor-pointer">
+          <div className="w-[60px] md:w-[40px lg:w-[80px] cursor-pointer animate-pulse">
             <ReactWhatsapp number="+919693243809" message="Hi.....">
               <img src={whatsapp} alt="" />
             </ReactWhatsapp>
