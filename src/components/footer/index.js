@@ -17,7 +17,7 @@ function Footer() {
       <div className="bg-black bg-opacity-80 text-black px-5 xl:px-40 py-10 text-left text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         <div className="my-5">
           <div className="font-bold text-xl">About Us</div>
-          <div className="cursor-pointer text-sm my-4">Introduction</div>
+          {/* <div className="cursor-pointer text-sm my-4">Introduction</div> */}
           <div className="cursor-pointer text-sm my-4">About Faculty</div>
         </div>
 

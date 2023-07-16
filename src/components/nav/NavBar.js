@@ -6,6 +6,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from './navLogo2.png';
+import whatsapp from './whatsappLogo.png';
 
 const NavBar = () => {
 
@@ -41,9 +42,9 @@ const NavBar = () => {
         </div>
 
         <div className="flex items-center space-x-5 md:space-x-10">
-          <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
+          <div className="w-[60px] md:w-[40px lg:w-[80px] cursor-pointer">
             <ReactWhatsapp number="+919693243809" message="Hi.....">
-              <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622486075_1767.gif" alt="" />
+              <img src={whatsapp} alt="" />
             </ReactWhatsapp>
           </div>
 
