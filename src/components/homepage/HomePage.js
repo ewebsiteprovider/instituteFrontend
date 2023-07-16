@@ -35,7 +35,7 @@ function HomePage() {
   return (
     <div className="h-[calc(100%_-_110px)] w-screen overflow-x-hidden bg-yellow-200 bg-opacity-80">
 
-      <div className="w-screen md:min-h-max lg:h-screen bg-gradient-to-b from-yellow-500">
+      <div className="w-screen md:min-h-max lg:h-[calc(100vh-120px)] bg-gradient-to-b from-yellow-500">
 
         <div className="w-screen min-h-max lg:h-screen flex flex-col xl:flex-row items-center justify-evenly space-y-6 md:space-y-36 xl:space-y-0 md:space-x-5 p-4">
           <div className="mt-20 xl:mt-0">
