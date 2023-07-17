@@ -20,7 +20,7 @@ export default function Scholarship() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 space-y-7 sm:space-y-0">
 
-          <div className="p-5 mb-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
+          <div className="p-5 mb-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg hover:scale-105 duration-300">
             <img src={img1} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               Take the test at a date and time of your choice.
@@ -31,14 +31,14 @@ export default function Scholarship() {
             </p>
           </div>
 
-          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
+          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg hover:scale-105 duration-300">
             <img src={img2} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               <b> JEE, NEET, Olympiad & Board</b> classroom <br /> Courses
             </p>
           </div>
 
-          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg">
+          <div className="p-5 w-[300px] h-[250px] sm:w-[300px] md:w-[350px] lg:w-[300px] xl:w-[500px] lg:h-[300px] m-auto rounded-[12px] bg-white shadow-lg hover:scale-105 duration-300">
             <img src={img3} alt="" className="w-[100%]" />
             <p className="leading-[24px] mt-[24px]">
               className <b>6th to 12th & 12th Pass</b> out Students

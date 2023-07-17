@@ -39,7 +39,7 @@ function FoundationTable() {
                 <td className="border-2">45,000</td>
               </tr>
               <tr>
-                <td className="px-10 sm:px-20 border-r-2">Polytechnique</td>
+                <td className="px-10 sm:px-20 border-r-2">Polytechnic</td>
                 <td className="px-10 sm:px-20 border-l-2">25,000</td>
               </tr>
             </tbody>

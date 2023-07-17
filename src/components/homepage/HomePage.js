@@ -79,7 +79,7 @@ function HomePage() {
       </div>
 
       <div className="px-5 flex flex-col items-center pt-20 pb-10 text-center">
-        <div className="text-[30px] sm:text-3xl font-bold text-[red]-700">
+        <div className="text-[30px] sm:text-3xl font-bold">
           Latest Announcements
         </div>
         <div className="text-[15px] sm:text-lg py-5 text-[red] 2xl:w-[1600px]">

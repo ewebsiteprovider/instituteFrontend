@@ -43,14 +43,10 @@ const NavBar = () => {
 
         <div className="flex items-center space-x-5 md:space-x-10">
           <div className="w-[60px] md:w-[40px lg:w-[80px] cursor-pointer animate-pulse" title="Chat with us">
-            <ReactWhatsapp number="+919693243809" message="Hi.....">
+            <ReactWhatsapp number="+917370884033" message="Hi.....">
               <img src={whatsapp} alt="" />
             </ReactWhatsapp>
           </div>
-
-          {/* <div className="w-[130px] md:w-[150px] lg:w-[180px] cursor-pointer">
-            <img src="https://www.ts.mentorsedu.com/ads_banner/banner_1622473322_1502.png" alt="" />
-          </div> */}
 
           <div className="w-[90px] md:w-[110px] lg:w-[140px] cursor-pointer" title="Scholarship test" onClick={()=>navigate('/scholarship')}>
             <img src="https://www.jupitersmriti.com/images/jupiter__image/sm____jupiter_img-2.png" alt="" />

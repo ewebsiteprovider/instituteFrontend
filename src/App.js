@@ -12,6 +12,7 @@ import Enquiry from "./components/enquiry/Enquiry";
 import LoginPage from "./components/loginForm/LoginPage";
 import RegistrationPage from "./components/registrationForm/RegistrationPage";
 import RequestCall from "./components/RequestCall";
+import AboutFaculty from "./components/aboutFaculty/AboutFaculty";
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route exact path="/enquiry" element={<Enquiry />} />
           <Route exact path="/login" element={<LoginPage />} />
           <Route exact path="/register" element={<RegistrationPage />} />
+          <Route exact path="/faculty" element={<AboutFaculty />} />
         </Routes>
 
         {formStatus ? (<div><RequestCall func={pull_data} /></div>):(<div></div>)}
