@@ -18,7 +18,7 @@ function Footer() {
         <div className="my-5">
           <div className="font-bold text-xl">About Us</div>
           <div className="cursor-default text-sm my-4">
-            <Link to="/">About Faculty</Link>
+            <Link to="/faculty">About Faculty</Link>
           </div>
         </div>
 
