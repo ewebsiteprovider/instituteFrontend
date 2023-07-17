@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import CloseIcon from '@mui/icons-material/Close';
 
-const RequestCall = () => {
+const RequestCall = (props) => {
 
     const [name, setName] = useState('');
     const [mobile, setMobile] = useState('');
@@ -14,7 +14,6 @@ const RequestCall = () => {
         setMobile(e.target.value);
     };
 
-
     const handleSubmitCall = (e) => {
         e.preventDefault();
 
@@ -25,13 +24,20 @@ const RequestCall = () => {
         setMobile('');
     };
 
+    const handleStatus = () => {
+        props.func('false');
+    }
+
 
     return (
         <div className='fixed bottom-[150px] left-[20px] sm:left-[150px md:left-[200px z-10'>
 
             <div className='w-[250px] sm:w-[200px] md:w-[350px] py-10 rounded-xl bg-black bg-opacity-90'>
 
-                <div className='mb-10 text-white text-[20px] md:text-[25px] text-center font-bold'>Request a call back</div>
+                <div className='mb-10 flex items-center justify-evenly'>
+                    <div className='text-white text-[20px] md:text-[25px] text-center font-bold'>Request a call back</div>
+                    <CloseIcon sx={{ color: 'red' }} className="cursor-pointer rounded-xl hover:bg-white hover:bg-opacity-60 hover:duration-300" onClick={handleStatus} />
+                </div>
 
                 <form className="flex flex-col items-center justify-center space-y-5" onSubmit={handleSubmitCall}>
 

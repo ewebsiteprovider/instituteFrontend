@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LottieAnimation from "./components/LottieAnimation";
 import Home from "./components/homepage/HomePage";
 import NavBar from "./components/nav/NavBar";
 import Foundation from "./components/foundation";
@@ -9,9 +11,7 @@ import Result from "./components/result/Result";
 import Enquiry from "./components/enquiry/Enquiry";
 import LoginPage from "./components/loginForm/LoginPage";
 import RegistrationPage from "./components/registrationForm/RegistrationPage";
-import LottieAnimation from "./components/LottieAnimation";
 import RequestCall from "./components/RequestCall";
-import { useState } from "react";
 
 function App() {
 
@@ -19,6 +19,12 @@ function App() {
 
   const handleCallFrom = () => {
     formStatus ? setFormStatus(false) : setFormStatus(true);
+  }
+
+  const pull_data = (data) => {
+    if(data === 'false')
+    setFormStatus(false);
+    console.log(typeof(data));
   }
 
   return (
@@ -39,10 +45,10 @@ function App() {
           <Route exact path="/register" element={<RegistrationPage />} />
         </Routes>
 
-        {formStatus ? (<div><RequestCall /></div>):(<div></div>)}
+        {formStatus ? (<div><RequestCall func={pull_data} /></div>):(<div></div>)}
         
         <div className='fixed bottom-[-180px] w-[90px] lg:w-[120px] cursor-pointer z-10' title="Request call" onClick={handleCallFrom}>
-          {formStatus ? <LottieAnimation animationUrl="https://lottie.host/2801f0dd-a59f-4c1d-8ccc-d43d67b2ee98/YESBZXCd8f.json" /> : <LottieAnimation animationUrl="https://lottie.host/84e0fcc3-27ba-4fa2-b2d1-ee70904a757d/LIeFI1WkTo.json" />}
+          <LottieAnimation animationUrl="https://lottie.host/84e0fcc3-27ba-4fa2-b2d1-ee70904a757d/LIeFI1WkTo.json" />
         </div>
 
       </BrowserRouter>
