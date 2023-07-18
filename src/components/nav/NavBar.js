@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import ReactWhatsapp from 'react-whatsapp';
 import MenuIcon from '@mui/icons-material/Menu';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
@@ -7,6 +7,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from './navLogo2.png';
 import whatsapp from './whatsappLogo.png';
+// import './Navbar.css';
 
 const NavBar = () => {
 
@@ -77,34 +78,34 @@ const NavBar = () => {
 
             {
               status ?
-                (<ul className='mt-3 px-2 flex flex-col items-center justify-center absolute z-10 -right-4 w-[300px] bg-black opacity-90 text-yellow-300 rounded-md'>
-                  <Link to="/" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                (<ul className='mt-3 px-2 flex flex-col items-center justify-center absolute z-10 -right-4 w-[300px] bg-black opacity-90 rounded-md'>
+                  <NavLink to="/" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Home</li>
-                  </Link>
+                  </NavLink>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/scholarship" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <NavLink to="/scholarship" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Scholarship</li>
-                  </Link>
+                  </NavLink>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/foundation" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <NavLink to="/foundation" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Foundation</li>
-                  </Link>
+                  </NavLink>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/jee" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <NavLink to="/jee" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>JEE</li>
-                  </Link>
+                  </NavLink>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/neet" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <NavLink to="/neet" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>NEET</li>
-                  </Link>
+                  </NavLink>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/result" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <NavLink to="/result" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Result</li>
-                  </Link>
+                  </NavLink>
                   <div className='h-[1px] w-full bg-white'></div>
-                  <Link to="/enquiry" className='mx-8 py-3 my-3 w-full text-center' onClick={() => setStatus(false)}>
+                  <NavLink to="/enquiry" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Enquiry Now</li>
-                  </Link>
+                  </NavLink>
                 </ul>) : (<div></div>)
             }
           </div>
@@ -113,9 +114,9 @@ const NavBar = () => {
           <ul className="flex items-center lg:space-x-3 xl:space-x-5 hidden lg:inline">
 
             {navItems.map((item, index) => (
-              <Link className="p-[16px] hover:text-yellow-400 duration-300" to={item.path} key={index}>
+              <NavLink className="p-[16px] hover:text-yellow-400 duration-300 aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold" to={item.path} key={index}>
                 {item.name}
-              </Link>
+              </NavLink>
             ))}
 
           </ul>
