@@ -144,11 +144,6 @@ function HomePage() {
             </ul>
           </div>
         </div>
-        <img
-          src="https://Patna Science Academy.ac.in/website/images/image_Curious.png"
-          alt=""
-          className="w-[700px]"
-        />
       </div>
 
       <Footer />
