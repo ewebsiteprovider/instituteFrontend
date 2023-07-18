@@ -146,9 +146,10 @@ const BannerForm = () => {
                     <label htmlFor="mobile" className="text-white">Mobile Number <span className="text-red-500">*</span></label>
                     <div className="flex w-[450px]">
                       <input className="px-2 sm:px-5 py-1 sm:py-2 w-[200px] sm:w-[250px] xl:w-[300px] text-black text-md rounded-l sm:rounded-tl-xl sm:rounded-bl-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
-                        type="tel"
                         id="mobile"
                         name="mobile"
+                        type="tel"
+                        pattern="[0-9]{10}"
                         value={formData.mobile}
                         onChange={handleInputChange}
                         placeholder="Enter your number"
