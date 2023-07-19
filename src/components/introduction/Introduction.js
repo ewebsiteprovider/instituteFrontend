@@ -9,7 +9,7 @@ const Introduction = () => {
       <div className='px-2 bg-yellow-300 flex items-center justify-evenly cursor-default'>
 
         <div className='w-[1000px] hidden xl:inline'>
-          <img src="https://www.pngmart.com/files/About-Us-Download-PNG-Image.png" alt="alt" />
+          <img src="https://www.pngmart.com/files/21/Introduction-PNG-HD-Isolated.png" alt="alt" />
         </div>
 
         <div className="py-10 xl:py-32 text-center font-medium ">
@@ -19,10 +19,6 @@ const Introduction = () => {
               Patna Science Academy prepares students for various competitive examinations for classes 11th & 12th. We focus on developing intelligence quotient (IQ), mathematical aptitude, scientific approach, logical thinking, reasoning skills & problem-solving skills through classroom programs. Our comprehensive approach ensures that students of class 11th to 12th achieve success in their school exams, Boards, JEE, NEET, POLYTECHNIC & PARAMEDICAL.
             </p>
           </div>
-        </div>
-
-        <div className='w-[1000px] hidden xl:inline'>
-          <img src="https://www.pngmart.com/files/About-Us-Download-PNG-Image.png" alt="alt" />
         </div>
 
       </div>

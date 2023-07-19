@@ -21,10 +21,6 @@ const AboutFaculty = () => {
           </div>
         </div>
 
-        <div className='w-[1000px] hidden xl:inline'>
-          <img src="https://www.pngmart.com/files/About-Us-Download-PNG-Image.png" alt="alt" />
-        </div>
-
       </div>
 
       <div className=''>
