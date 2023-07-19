@@ -90,7 +90,7 @@ const EnquiryForm = () => {
 
                 <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
                     <label className='text-white'>Query <span className='text-red-500'>*</span></label>
-                    <textarea className="px-2 sm:px-4 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm resize-none" value={query} onChange={handleQueryChange} placeholder='Your Message' rows="4" cols="50" fixed required />
+                    <textarea className="px-2 sm:px-4 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm resize-none" value={query} onChange={handleQueryChange} placeholder='Your Message' rows="4" cols="50" required />
                 </div>
 
                 <button type='submit' className='p-2 text-black rounded-lg text-lg hover:scale-105 duration-300' style={{ color: 'white', fontWeight: '500', backgroundColor:'rgba(245, 39, 39, 0.9)', marginRight:'30px', }}>
