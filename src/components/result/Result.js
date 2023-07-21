@@ -30,7 +30,7 @@ function Result() {
                     <div className='py-5 text-2xl font-bold '>
                         11th Board
                     </div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+                    {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
@@ -38,7 +38,7 @@ function Result() {
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -47,12 +47,12 @@ function Result() {
                     <div className='py-5 text-2xl font-bold '>
                         12th Board
                     </div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+                    {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -61,11 +61,11 @@ function Result() {
                     <div className='py-5 text-2xl font-bold '>
                         JEE Main
                     </div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+                    {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -74,14 +74,14 @@ function Result() {
                     <div className='py-5 text-2xl font-bold '>
                         JEE Advance
                     </div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+                    {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -90,7 +90,7 @@ function Result() {
                     <div className='py-5 text-2xl font-bold '>
                         NEET
                     </div>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+                    {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
@@ -99,7 +99,7 @@ function Result() {
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
                         <div className='mx-2 my-2 sm:w-[200px]'><img src="https://qph.cf2.quoracdn.net/main-qimg-ea176d83a94d00ac6e3672594c8d292c-lq" alt="" /></div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

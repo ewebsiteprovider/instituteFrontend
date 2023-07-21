@@ -42,10 +42,10 @@ function Foundation() {
       </div>
 
       <div className="px-10 md:px-20 pt-14 pb-12">
-        <div className="text-xl font-bold text-[red]-800 pb-5">
+        <div className="text-2xl md:text-[30px] font-bold text-[red]-800 pb-5">
           WHAT CAN BE A BETTER STEP THAN A WELL-PLANNED EARLY START!
         </div>
-        <div className="text-sm md:text-md leading-6 text-start md:text-center">
+        <div className="text-sm md:text-[18px] leading-6 text-start md:text-center">
           Patna Science Academy prepares students for various competitive
           examinations for classes 11th & 12th. We focus on developing
           intelligence quotient (IQ), mathematical aptitude, scientific
@@ -59,21 +59,21 @@ function Foundation() {
       <div className="mb-10">
         <div className="text-start py-5 px-10 w-[320px] md:w-[400px] xl:w-[600px] m-auto space-y-5 bg-yellow-200 bg-opacity-80 rounded-xl shadow-xl">
           <div className="space-y-2">
-            <div className="text-[30px]">Eligibility</div>
+            <div className="text-2xl md:text-[30px] font-bold">Eligibility</div>
             <div className="text-[18px] md:ml-[80px]">
               <li>10th Class Passed Candidate</li>
             </div>
           </div>
 
           <div className="space-y-2">
-            <div className="text-[30px]">Medium</div>
+            <div className="text-2xl md:text-[30px] font-bold">Medium</div>
             <div className="text-[18px] md:ml-[80px]">
               <li>Separate batches for English & Hindi Medium</li>
             </div>
           </div>
 
           <div className="space-y-2">
-            <div className="text-[30px]">Mock Test</div>
+            <div className="text-2xl md:text-[30px] font-bold">Mock Test</div>
             <div className="text-[18px] md:ml-[80px]">
               <li>First 25% Course</li>
               <li>Second 50% Course</li>

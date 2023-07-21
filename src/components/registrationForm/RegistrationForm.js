@@ -48,7 +48,7 @@ const RegistrationForm = () => {
   return (
     <div>
       
-        <div className='my-10 xl:my-0 w-[300px] sm:w-[500px] md:w-[650px] py-10 rounded-xl bg-black bg-opacity-80'>
+        <div className='my-10 xl:my-10 w-[300px] sm:w-[500px] md:w-[650px] py-10 rounded-xl bg-black bg-opacity-80'>
 
           <div className='mb-10 text-white text-[30px] text-center font-bold'>Registration Form</div>
 
@@ -66,7 +66,7 @@ const RegistrationForm = () => {
 
             <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
               <label className='text-white'>Mobile <span className='text-red-500'>*</span></label>
-              <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="password" value={mobile} onChange={handleMobileChange} placeholder='Your Mobile Number' required />
+            <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="tel" pattern="[0-9]{10}" value={mobile} onChange={handleMobileChange} placeholder='Your Mobile Number' required />
             </div>
 
             <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
