@@ -12,7 +12,7 @@ function FoundationSalient() {
   return (
     <div className="pt-10 pb-8 bg-yellow-200 bg-opacity-80">
       <div className="text-2xl md:text-[30px] font-bold pb-5">Salient Features</div>
-      <div className="p-5  rounded-xl grid grid-cols-1 sm:grid-col-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+      <div className="p-5  rounded-xl grid grid-cols-1 sm:grid-col-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
 
         <SalientFeaturesCard logo={<Groups3Icon sx={{ fontSize: '60px' }} />} heading="Regular PTMs (Parents-Teacher Meetings)" title="PTMs is a short meeting or conference between the parents and teachers of students to discuss a child's progress  and find solutions to academic or behavioral problems." />
 
