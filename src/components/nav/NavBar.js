@@ -69,7 +69,7 @@ const NavBar = () => {
             <img src={logo} alt="" className="h-[40px] md:h-[60px] rounded-full cursor-pointer" onClick={()=>navigate('/')} />
         </div>
 
-        <div className="2xl:mr-64">
+        <div className="w-[60%] text-center">
           <div className="relative lg:hidden">
 
             <div className='cursor-pointer ' onClick={handleOnClick}>
