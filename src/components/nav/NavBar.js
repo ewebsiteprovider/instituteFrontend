@@ -37,9 +37,9 @@ const NavBar = () => {
       <div className="flex items-center justify-evenly">
 
         <div className="w-[200px] flex items-center justify-between hidden lg:flex">
-          <FacebookRoundedIcon sx={{ fontSize: '40px', color: '#3b5998' }} className="cursor-pointer hover:text-black" />
-          <TwitterIcon sx={{ fontSize: '40px', color: '#00acee' }} className="cursor-pointer hover:text-black" />
-          <LinkedInIcon sx={{ fontSize: '40px', color: ' #0A66C2' }} className="cursor-pointer hover:text-black" />
+          <a href="https://www.facebook.com/ewebsiteprovider.official/" target="_blank"><FacebookRoundedIcon sx={{ fontSize: '40px', color: '#3b5998' }} className="cursor-pointer hover:text-black" /></a>
+          <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fewprovider%2F" target="_blank"><TwitterIcon sx={{ fontSize: '40px', color: '#00acee' }} className="cursor-pointer hover:text-black" /></a>
+          <a href="https://www.linkedin.com/company/e-websiteprovider/mycompany/" target="_blank"><LinkedInIcon sx={{ fontSize: '40px', color: ' #0A66C2' }} className="cursor-pointer hover:text-black" /></a>
         </div>
 
         <div className="flex items-center space-x-5 md:space-x-10">
