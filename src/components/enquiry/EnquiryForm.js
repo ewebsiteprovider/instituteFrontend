@@ -69,7 +69,7 @@ const EnquiryForm = () => {
 
                 <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
                     <label className='text-white'>Mobile Number <span className='text-red-500'>*</span></label>
-                    <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="tel" pattern="[0-9]{10}" value={mobile} onChange={handleMobileChange} placeholder='Your Mobile number' required />
+                    <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="tel" pattern="[7-9]{1}[0-9]{9}" value={mobile} onChange={handleMobileChange} placeholder='Your Mobile number' required />
                 </div>
 
                 <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">

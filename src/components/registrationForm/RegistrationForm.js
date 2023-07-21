@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 
 const RegistrationForm = () => {
 
@@ -8,6 +10,8 @@ const RegistrationForm = () => {
   const [mobile, setMobile] = useState('');
   const [password, setPassword] = useState('');
   const [cpassword, setCPassword] = useState('');
+
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleNameChange = (e) => {
     setName(e.target.value);
@@ -38,12 +42,18 @@ const RegistrationForm = () => {
     if (password === "") return alert("Enter your password");
     if (cpassword === "") return alert("Enter your confirm password");
 
+    if (password !== cpassword) return alert("Password doesn't match");
+
     setName('');
     setEmail('');
     setMobile('');
     setPassword('');
     setCPassword('');
   };
+
+  const handleShowPassword = (e) => {
+    showPassword ? setShowPassword(false) : setShowPassword(true);
+  }
 
   return (
     <div>
@@ -69,10 +79,13 @@ const RegistrationForm = () => {
             <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="tel" pattern="[7-9]{1}[0-9]{9}" value={mobile} onChange={handleMobileChange} placeholder='Your Mobile Number' required />
             </div>
 
-            <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
-              <label className='text-white'>Password <span className='text-red-500'>*</span></label>
-              <input className="px-2 sm:px-5 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type="password" value={password} onChange={handlePasswordChange} placeholder='Your Password' required />
+          <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
+            <label className='text-white'>Password <span className='text-red-500'>*</span></label>
+            <div className='pr-2 w-full flex items-center bg-white rounded-lg sm:rounded-xl'>
+              <input className="px-2 sm:px-5 py-1 sm:py-2 w-full text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm" type={showPassword ? "text" : "password"} id="password" value={password} onChange={handlePasswordChange} placeholder='Your Password' required />
+              {showPassword ? <VisibilityOffIcon className='cursor-pointer' onClick={handleShowPassword} /> : <VisibilityIcon className='cursor-pointer' onClick={handleShowPassword} />}
             </div>
+          </div>
 
             <div className="flex flex-col space-y-2 w-[250px] sm:w-[400px] md:w-[600px]">
               <label className='text-white'>Confirm Password <span className='text-red-500'>*</span></label>
