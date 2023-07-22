@@ -15,7 +15,7 @@ export default function LottieAnimation({ animationUrl }) {
           animation = lottie.loadAnimation({
             container: lottieContainer.current,
             renderer: "svg",
-            loop: false,
+            loop: true,
             autoplay: true,
             animationData: animationData,
           });
@@ -33,5 +33,5 @@ export default function LottieAnimation({ animationUrl }) {
     };
   }, [animationUrl]);
 
-  return <div ref={lottieContainer} className="h-[500px] overflow-hidden"></div>;
+  return <div ref={lottieContainer} className="h-[100px] overflow-hidden"></div>;
 }
