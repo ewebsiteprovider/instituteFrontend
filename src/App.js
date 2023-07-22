@@ -51,7 +51,7 @@ function App() {
 
         {formStatus ? (<div><RequestCall func={pull_data} /></div>):(<div></div>)}
         
-        <div className='fixed bottom-[-180px] w-[90px] lg:w-[120px] cursor-pointer z-10' title="Request call" onClick={handleCallFrom}>
+        <div className='fixed bottom-[-120px] w-[90px] lg:w-[120px] z-10 cursor-pointer' title="Request call" onClick={handleCallFrom} >
           <LottieAnimation animationUrl="https://lottie.host/84e0fcc3-27ba-4fa2-b2d1-ee70904a757d/LIeFI1WkTo.json" />
         </div>
 

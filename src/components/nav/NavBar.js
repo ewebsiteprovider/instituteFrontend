@@ -7,7 +7,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from './navLogo2.png';
 import whatsapp from './whatsappLogo.png';
-// import './Navbar.css';
 
 const NavBar = () => {
 
@@ -17,7 +16,6 @@ const NavBar = () => {
 
   const handleOnClick = () => {
     (status ? setStatus(false) : setStatus(true));
-    console.log(status);
   }
 
   const navItems = [
@@ -70,15 +68,15 @@ const NavBar = () => {
         </div>
 
         <div className="w-[60%] text-center">
-          <div className="relative lg:hidden">
+          <div className="xl:hidden">
 
-            <div className='cursor-pointer ' onClick={handleOnClick}>
+            <div className='cursor-pointer text-end' onClick={handleOnClick}>
               <MenuIcon sx={{ fontSize: '33px' }} />
             </div>
 
             {
               status ?
-                (<ul className='mt-3 px-2 flex flex-col items-center justify-center absolute z-10 -right-4 w-[300px] bg-black opacity-90 rounded-md'>
+                (<ul className='mt-3 px-2 flex flex-col items-center justify-center absolute z-10 right-[30px] w-[300px] bg-black opacity-90 rounded-md'>
                   <NavLink to="/" className='mx-8 py-3 my-3 w-full text-center aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold' onClick={() => setStatus(false)}>
                     <li className='font-bold cursor-pointer hover:scale-125 hover:duration-300'>Home</li>
                   </NavLink>
@@ -111,10 +109,10 @@ const NavBar = () => {
           </div>
 
 
-          <ul className="flex items-center lg:space-x-3 xl:space-x-5 hidden lg:inline">
+          <ul className="flex items-center xl:space-x-3 hidden xl:inline">
 
             {navItems.map((item, index) => (
-              <NavLink className="p-[16px] hover:text-yellow-400 duration-300 aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold" to={item.path} key={index}>
+              <NavLink className="p-[16px] whitespace-pre hover:text-yellow-400 duration-300 aria-[current=page]:text-yellow-400 aria-[current=page]:font-bold" to={item.path} key={index}>
                 {item.name}
               </NavLink>
             ))}
