@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
-const EnquiryForm = () => {
+function EnquiryForm() {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -33,25 +34,57 @@ const EnquiryForm = () => {
         setQuery(e.target.value);
     };
 
-    const handleSubmit = (e) => {
+
+    function handleSubmit(e) {
         e.preventDefault();
 
-        if (name === "") return alert("Enter your name");
-        if (email === "") return alert("Enter your email");
-        if (mobile === "") return alert("Enter your mobile");
-        if (city === "") return alert("Enter your city");
-        if (option === "") return alert("Enter your option");
-        if (query === "") return alert("Enter your query");
+        if (name === '') return alert('Enter your name');
+        if (email === '') return alert('Enter your email');
+        if (mobile === '') return alert('Enter your mobile');
+        if (city === '') return alert('Enter your city');
+        if (option === '') return alert('Enter your option');
+        if (query === '') return alert('Enter your query');
 
-        console.log('Form submitted:', { name, email, mobile, city, option, query });
 
-        setName('');
-        setEmail('');
-        setMobile('');
-        setCity('');
-        setOption('');
-        setQuery('');
+
+        const formData = {
+            name,
+            email,
+            mobile,
+            city,
+            option,
+            query,
+        };
+
+
+        console.log(e, formData);
+        fetch('https://formsubmit.co/ajax/yashkasyap1110@gmail.com', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+        axios.post('http://localhost:2003/user/submit', formData)
+            .then(response => {
+                console.log(response.data);
+
+                alert('Form submitted successfully!');
+                // Handle the response as needed
+                setName('');
+                setEmail('');
+                setMobile('');
+                setCity('');
+                setOption('');
+                setQuery('');
+
+            })
+            .catch(error => {
+                console.error(error);
+                // Handle the error as needed
+            });
     };
+
 
     return (
         <div className='w-[300px] sm:w-[500px] md:w-[650px] py-10 rounded-xl bg-black bg-opacity-80'>
@@ -93,7 +126,7 @@ const EnquiryForm = () => {
                     <textarea className="px-2 sm:px-4 py-1 sm:py-2 text-black text-md rounded-lg sm:rounded-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm resize-none" value={query} onChange={handleQueryChange} placeholder='Your Message' rows="4" cols="50" required />
                 </div>
 
-                <button type='submit' className='p-2 text-black rounded-lg text-lg hover:scale-105 duration-300' style={{ color: 'white', fontWeight: '500', backgroundColor:'rgba(245, 39, 39, 0.9)', marginRight:'30px', }}>
+                <button type='submit' className='p-2 text-black rounded-lg text-lg hover:scale-105 duration-300' style={{ color: 'white', fontWeight: '500', backgroundColor: 'rgba(245, 39, 39, 0.9)', marginRight: '30px', }} onClick={handleSubmit}>
                     Submit
                 </button>
 

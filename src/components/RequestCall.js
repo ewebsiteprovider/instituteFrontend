@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import CloseIcon from '@mui/icons-material/Close';
 
 const RequestCall = (props) => {
@@ -19,6 +20,16 @@ const RequestCall = (props) => {
 
         if (name === "") return alert("Enter your Name");
         if (mobile === "") return alert("Enter your Mobile");
+
+        axios.post('http://localhost:2001/send-sms', { name, mobile })
+            .then((response) => {
+                console.log('Message sent successfully.');
+
+            })
+            .catch((error) => {
+                console.error('Error sending message:', error);
+
+            });
 
         setName('');
         setMobile('');

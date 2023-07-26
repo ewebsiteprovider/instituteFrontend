@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 const BannerForm = () => {
 
@@ -12,26 +13,91 @@ const BannerForm = () => {
     gender: "male",
     aadhar: "",
     parents: "",
-    address:"",
+    address: "",
   });
+
+  const [otpSent, setOtpSent] = useState(false);
+  const [otpVerified, setOtpVerified] = useState(false);
+  const [otpInput, setOtpInput] = useState("");
+  const [error, setError] = useState("");
+
+  const phoneRegex = /^\+?[0-9]+$/;
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
+    if (name === "mobile" && !phoneRegex.test(value)) {
+      setError("Phone number must be in the format +12345678901");
+
+    } else {
+      setError("");
+    }
+    console.log("Error:", error);
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
   };
 
+  const handleSendOTP = async () => {
+    try {
+      if (!formData.mobile) {
+        alert("Please enter a mobile number.");
+        return;
+      }
+      // Make a POST request to send OTP to the backend
+      const response = await axios.post("http://localhost:2002/api/sendOTP", { mobile: formData.mobile });
+      if (response.status === 200 && response.data.otpSent) {
+        alert("OTP sent successfully!");
+        setOtpSent(true);
+        setOtpVerified(false); // Reset otpVerified to false when OTP is sent again
+
+      } else {
+        alert("Failed to send OTP. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error sending OTP:", error);
+      alert("Failed to send OTP. Please try again later.");
+    }
+    setOtpInput("");
+  };
+
   //otp ka funtion
-  const handleVerifyOTP = () => {
-    console.log("OTP Verified");
+  const handleVerifyOTP = async () => {
+    if (otpInput === "") {
+      alert("Please enter the OTP before verifying.");
+      return;
+    }
+
+    try {
+      // Make a POST request to verify OTP with the backend
+      const response = await axios.post("http://localhost:2002/api/verifyOTP", { mobile: formData.mobile, otp: otpInput });
+      if (response.status === 200 && response.data.otpVerified) {
+        alert("OTP verified successfully!");
+        setOtpVerified(true);
+
+      } else {
+        alert("Invalid OTP. Please try again.");
+
+      }
+    } catch (error) {
+      console.error("Error verifying OTP:", error);
+      alert("Failed to verify OTP. Please try again later.");
+      setOtpSent(false);
+    }
   };
 
   //function check krne ke liye sb bhara hai ya nhi
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
+    if (!otpSent) {
+      alert("Please send OTP and verify before submitting the form.");
+      return;
+    }
 
+    if (!otpVerified) {
+      alert("Please verify OTP before submitting the form.");
+      return;
+    }
     let hasEmptyField = false;
     for (const field in formData) {
       if (formData[field] === "") {
@@ -44,7 +110,20 @@ const BannerForm = () => {
       alert("Please fill in all fields.");
       return;
     } else {
-      alert("form submitted");
+      try {
+        // Make a POST request to save form data to the backend
+        const response = await axios.post("http://localhost:2002/api/saveForm", formData);
+        if (response.status === 201) {
+          alert("Form submitted successfully!");
+        } else {
+          alert("Failed to submit form. Please try again later.");
+        }
+      } catch (error) {
+        console.error("Error submitting form:", error);
+        alert("Failed to submit form. Please try again later.");
+      }
+
+
     }
 
     setFormData({
@@ -52,14 +131,17 @@ const BannerForm = () => {
       name: "",
       email: "",
       mobile: "",
+
       dob: "",
       board: "BIHAR",
       gender: "male",
       aadhar: "",
       parents: "",
       address: "",
-    })
 
+    })
+    setOtpInput("");
+    setOtpSent(false);
   };
 
 
@@ -149,17 +231,40 @@ const BannerForm = () => {
                         id="mobile"
                         name="mobile"
                         type="tel"
-                        pattern="[0-9]{10}"
+                        // pattern="[0-9]{10}"
                         value={formData.mobile}
                         onChange={handleInputChange}
                         placeholder="Enter your number"
                       />
-                      <button
-                        type="button"
-                        className="w-[100px] sm:w-[100px] md:w-[100px] xl:w-[150px] text-white bg-black bg-opacity-40 rounded-tr-md rounded-br-md sm:rounded-tr-xl sm:rounded-br-xl hover:bg-opacity-30"
-                        onClick={handleVerifyOTP}>
-                        Verify OTP
-                      </button>
+
+                      {error && <span className="error">{error}</span>}
+                      {otpSent ? (
+                        <>
+                          <input
+                            className="px-2 sm:px-5 py-1 sm:py-2 w-[150px] text-black text-md rounded-r sm:rounded-tr-xl sm:rounded-br-xl outline-0 placeholder-gray-400 placeholder:italic placeholder:text-sm"
+                            type="text"
+                            id="otpInput"
+                            name="otpInput"
+                            value={otpInput}
+                            onChange={(e) => setOtpInput(e.target.value)}
+                            placeholder="Enter OTP"
+                          />
+                          <button
+                            type="button"
+                            className="w-[100px] sm:w-[100px] md:w-[100px] xl:w-[150px] text-white bg-black bg-opacity-40 rounded-tr-md rounded-br-md sm:rounded-tr-xl sm:rounded-br-xl hover:bg-opacity-30"
+                            onClick={handleVerifyOTP}>
+                            Verify OTP
+                          </button>
+                        </>
+                      ) : (
+                        <button
+                          type="button"
+                          className="w-[100px] sm:w-[100px] md:w-[100px] xl:w-[150px] text-white bg-black bg-opacity-40 rounded-tr-md rounded-br-md sm:rounded-tr-xl sm:rounded-br-xl hover:bg-opacity-30"
+                          onClick={handleSendOTP}
+                        >
+                          Send OTP
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
